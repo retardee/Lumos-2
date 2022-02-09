@@ -14,6 +14,7 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include "tgs.dm"
 #include "_maps\_basemap.dm"
 #include "_maps\map_files\FestiveBall\doorButtonOrganizer.dm"
 #include "code\_compile_options.dm"
@@ -4197,7 +4198,6 @@
 #include "modular_sand\code\modules\vending\clothesmate.dm"
 #include "modular_sand\code\modules\vending\kinkmate.dm"
 #include "tgs\includes.dm"
-#include "tgs\tgs.dm"
 #include "tgs\core\_definitions.dm"
 #include "tgs\core\core.dm"
 #include "tgs\core\datum.dm"

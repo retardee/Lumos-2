@@ -14,7 +14,6 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "tgs.dm"
 #include "_maps\_basemap.dm"
 #include "_maps\map_files\FestiveBall\doorButtonOrganizer.dm"
 #include "code\_compile_options.dm"
@@ -4197,15 +4196,5 @@
 #include "modular_sand\code\modules\vending\autodrobe.dm"
 #include "modular_sand\code\modules\vending\clothesmate.dm"
 #include "modular_sand\code\modules\vending\kinkmate.dm"
-#include "tgs\includes.dm"
-#include "tgs\core\_definitions.dm"
-#include "tgs\core\core.dm"
-#include "tgs\core\datum.dm"
-#include "tgs\core\tgs_version.dm"
-#include "tgs\v5\_defines.dm"
-#include "tgs\v5\api.dm"
-#include "tgs\v5\commands.dm"
-#include "tgs\v5\interop_version.dm"
-#include "tgs\v5\undefs.dm"
 #include "tools\Redirector\textprocs.dm"
 // END_INCLUDE

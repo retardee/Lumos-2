@@ -157,7 +157,9 @@
 		/datum/language/common,
 		/datum/language/draconic,
 		/datum/language/ratvar,
-		/datum/language/monkey))
+		/datum/language/monkey,
+		/datum/language/signlanguage, // Lumos Change
+	))
 
 /obj/item/organ/tongue/alien/Initialize(mapload)
 	. = ..()
@@ -265,6 +267,7 @@
 		/datum/language/sylvan,
 		/datum/language/voltaic,
 		/datum/language/neokanji,
+		/datum/language/signlanguage, // Lumos Change
 	))
 
 /obj/item/organ/tongue/ethereal/Initialize(mapload)
@@ -284,6 +287,7 @@
 		/datum/language/beachbum,
 		/datum/language/aphasia,
 		/datum/language/arachnid,
+		/datum/language/signlanguage, // Lumos Change
 	))
 
 /obj/item/organ/tongue/arachnid/Initialize(mapload)

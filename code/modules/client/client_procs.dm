@@ -302,6 +302,8 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 	var/full_version = "[byond_version].[byond_build ? byond_build : "xxx"]"
 	log_access("Login: [key_name(src)] from [address ? address : "localhost"]-[computer_id] || BYOND v[full_version]")
 
+	message_admins("[key_name_admin(src)] has connected.") // Lumos Change - Login notification for admins
+
 	var/alert_mob_dupe_login = FALSE
 	if(CONFIG_GET(flag/log_access))
 		for(var/I in GLOB.clients)
@@ -518,6 +520,9 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 	GLOB.clients -= src
 	GLOB.directory -= ckey
 	log_access("Logout: [key_name(src)]")
+
+	message_admins("[key_name_admin(src)] has logged out.") // Lumos change - Logout notification for admins
+
 	GLOB.ahelp_tickets.ClientLogout(src)
 	SSserver_maint.UpdateHubStatus()
 	if(credits)

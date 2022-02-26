@@ -73,7 +73,7 @@
 	yolk.gib()
 	QDEL_NULL(egg)
 	return ..()
-	
+
 /obj/effect/mob_spawn/human/ash_walker
 	name = "ash walker egg"
 	desc = "A man-sized yellow egg, spawned from some unfathomable creature. A humanoid silhouette lurks within."
@@ -639,9 +639,9 @@
 	outfit = /datum/outfit/syndicate_empty
 	assignedrole = "Syndicate Infiltration Agent"
 	short_desc = "You are a Syndicate Infiltration Agent"
-	flavour_text = "You have been assigned by Waffle Co. in infiltrating and retrieving the next generation of weapon development technology. Assure no NT scumbags acknowledge your presence and escape with the valuables in hand. Do not fail us."
-	important_info = "Do NOT kill the station crew unless your base has been discovered and breached by them."
-	objectives = list("Steal the Captains Antique Lasergun, ensure your presence stays undetected.") //Nostra change - changed into list
+	flavour_text = "You have been assigned by Waffle Co. to infiltrate and gather intelligence about this sector of Nanotrasen space. Ensure no NT scumbag discovers your presence and avoid interaction with the enemy at all costs. Do not fail us." //LUMOS EDIT
+	important_info = "Do NOT kill the station crew unless your base has been discovered AND breached by them." //LUMOS EDIT
+	objectives = list("Gather as much intel about NT's Slime Operations as you can, ensure you and your fellow agent stay undetected.") //LUMOS EDIT
 
 /obj/effect/mob_spawn/human/syndicate_agent_base_comms/Destroy()
 	return ..()
@@ -653,7 +653,7 @@
 	return ..()
 
 /obj/effect/mob_spawn/human/syndicate_agent_base_infl/special(mob/living/carbon/human/new_spawn)
-	to_chat(new_spawn, "<span class='warning'>Objectives:</span> Steal the Captains Antique Lasergun, ensure your presence stays undetected. Failure is not an option.")
+	to_chat(new_spawn, "<span class='warning'>Objectives:</span> Gather as much intel about NT's Slime Operations as you can, ensure you and your fellow agent stay undetected.") //LUMOS EDIT
 
 /obj/effect/mob_spawn/human/syndicate
 	name = "Syndicate Operative"

@@ -1,7 +1,7 @@
 {
     "map_name": "OmegaStation",
     "map_path": "map_files/OmegaStation",
-    "map_file": ["OmegaStation_nostra.dmm","OmegaStation2deck_nostra.dmm"],
+    "map_file": ["OmegaStation_Lumos.dmm","OmegaStation2deck_Lumos.dmm"],
 	"shuttles": {
 	    "emergency": "emergency_omega",
 	    "ferry": "ferry_fancy",

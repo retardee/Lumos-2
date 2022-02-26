@@ -2,8 +2,8 @@
     "map_name": "Lambda Station",
     "map_path": "map_files/LambdaStation",
     "map_file":[
-        "lambda_nostra.dmm",
-        "dorms_nostra.dmm"
+        "lambda_Lumos.dmm",
+        "dorms_Lumos.dmm"
 	],
     "shuttles": {
         "emergency": "emergency_meta",

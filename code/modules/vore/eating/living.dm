@@ -242,6 +242,20 @@
 			var/mob/living/simple_animal/SA = B.owner
 			SA.update_icons()
 
+	//You're in a dogborg!
+	else if(istype(loc, /obj/item/dogborg/sleeper))
+		var/obj/item/dogborg/sleeper/belly = loc //The belly!
+
+		var/confirm = alert(src, "You're in a dogborg sleeper. This is for escaping from preference-breaking or if your predator disconnects/AFKs. You can also resist out naturally too.", "Confirmation", "Okay", "Cancel")
+		if(!confirm == "Okay" || loc != belly)
+			return
+		//Actual escaping
+		belly.go_out(src) //Just force-ejects from the borg as if they'd clicked the eject button.
+		message_admins("[src] used OOC escape from a dogborg sleeper.")
+		log_consent("[src] used OOC escape from a dogborg sleeper.")
+	else
+		to_chat(src,"<span class='alert'>You aren't inside anyone, though, is the thing.</span>")
+
 /mob/living/proc/copy_to_prefs_vr()
 	if(!client || !client.prefs)
 		to_chat(src,"<span class='warning'>You attempted to save your vore prefs but somehow you're in this character without a client.prefs variable. Tell a dev.</span>")

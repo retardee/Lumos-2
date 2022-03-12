@@ -8,6 +8,9 @@
 	appearance_flags = RESET_COLOR | TILE_BOUND | PIXEL_SCALE
 	layer = ABOVE_FLY_LAYER
 
+/obj/effect/overlay/typing_indicator/machine/dogborg
+	icon = 'modular_sand/icons/mob/talk.dmi'
+
 /mob/living/simple_animal/slime
 	typing_indicator_state = /obj/effect/overlay/typing_indicator/slime
 

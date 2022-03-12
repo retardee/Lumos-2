@@ -23,5 +23,6 @@
 		icon = initial(icon)
 		icon_state = "[chassis][resting? "_rest" : (stat == DEAD? "_dead" : "")]"
 		rotate_on_lying = FALSE
-	pixel_x = ((chassis == "dynamic") && chassis_pixel_offsets_x[dynamic_chassis]) || 0
+	pixel_x = (chassis == "dynamic") || 0
 	update_transform()
+

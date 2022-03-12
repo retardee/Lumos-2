@@ -21,7 +21,6 @@
 	var/disguise = null
 	var/disguise_icon_override = null
 	var/disguise_pixel_offset = null
-	var/disguise_dogborg = FALSE
 	var/mob/listeningTo
 	var/list/signalCache = list( // list here all signals that should break the camouflage
 			COMSIG_PARENT_ATTACKBY,
@@ -193,26 +192,6 @@
 					if("Heavy")
 						disguise = "heavymed"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("Medihound")
-						disguise = "medihound"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Medihound Dark")
-						disguise = "medihounddark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Vale")
-						disguise = "valemed"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Drake")
-						disguise = "drakemed"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 
@@ -266,26 +245,6 @@
 					if("Heavy")
 						disguise = "heavyeng"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("Pup Dozer")
-						disguise = "pupdozer"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Vale")
-						disguise = "valeeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Alina")
-						disguise = "alina-eng"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Drake")
-						disguise = "drakeeng"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 			if("Security")
@@ -330,31 +289,6 @@
 					if("Heavy")
 						disguise = "heavysec"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("K9")
-						disguise = "k9"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Alina")
-						disguise = "alina-sec"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("K9 Dark")
-						disguise = "k9dark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Vale")
-						disguise = "valesec"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Drake")
-						disguise = "drakesec"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 			if("Service")
@@ -405,21 +339,6 @@
 					if("(Service) Heavy")
 						disguise = "heavyserv"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("(Service) DarkK9")
-						disguise = "k50"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("(Service) Vale")
-						disguise = "valeserv"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("(Service) ValeDark")
-						disguise = "valeservdark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					if("(Janitor) Default")
 						disguise = "janitor"
 						disguise_icon_override = 'icons/mob/robots.dmi'
@@ -435,16 +354,6 @@
 					if("(Janitor) Heavy")
 						disguise = "heavyres"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("(Janitor) Scrubpuppy")
-						disguise = "scrubpup"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("(Janitor) Drake")
-						disguise = "drakejanit"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 			if("Miner")
@@ -492,21 +401,6 @@
 					if("Heavy")
 						disguise = "heavymin"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("Blade")
-						disguise = "blade"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Vale")
-						disguise = "valemine"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
-					if("Drake")
-						disguise = "drakemine"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 			if("Peacekeeper")
@@ -529,11 +423,6 @@
 					if("Borgi")
 						disguise = "borgi"
 						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
-					if("Drake")
-						disguise = "drakepeace"
-						disguise_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
-						disguise_pixel_offset = -16
-						disguise_dogborg = TRUE
 					else
 						return FALSE
 			if("Clown")
@@ -623,7 +512,6 @@
 	user.module.cyborg_base_icon = disguise
 	user.module.cyborg_icon_override = disguise_icon_override
 	user.module.cyborg_pixel_offset = disguise_pixel_offset
-	user.module.dogborg = disguise_dogborg
 	user.bubble_icon = "robot"
 	active = TRUE
 	user.update_icons()
@@ -646,12 +534,10 @@
 	user.module.cyborg_base_icon = savedIcon
 	user.module.cyborg_icon_override = savedOverride
 	user.module.cyborg_pixel_offset = 0
-	user.module.dogborg = FALSE
 	user.bubble_icon = savedBubbleIcon
 	active = FALSE
 	user.update_icons()
 	disguise_pixel_offset = 0
-	disguise_dogborg = FALSE
 	src.user = user
 
 /obj/item/borg_shapeshifter/proc/disrupt(mob/living/silicon/robot/user)

@@ -3978,7 +3978,6 @@
 #include "modular_sand\code\game\mecha\mecha.dm"
 #include "modular_sand\code\game\mecha\mecha_construction_paths.dm"
 #include "modular_sand\code\game\mecha\mecha_parts.dm"
-#include "modular_sand\code\game\objects\effects\contraband.dm"
 #include "modular_sand\code\game\objects\effects\decals\cleanable\lewd_decals.dm"
 #include "modular_sand\code\game\objects\items\borg_shapeshifter.dm"
 #include "modular_sand\code\game\objects\items\BSRPD.dm"

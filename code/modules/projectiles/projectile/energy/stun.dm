@@ -41,18 +41,6 @@
 	do_sparks(1, TRUE, src)
 	..()
 
-/obj/item/projectile/energy/electrode/security // Lumos change - Revert nerf
-	tase_duration = 30
-	knockdown = 20
-	stamina = 10
-	knockdown_stamoverride = 0
-	knockdown_stam_max = 0
-	strong_tase = FALSE
+/obj/item/projectile/energy/electrode/security // Lumos change
 
-/obj/item/projectile/energy/electrode/security/hos // Lumos change - Revert nerf
-	tase_duration = 10
-	knockdown = 100
-	// stamina = 0
-	knockdown_stamoverride = 30
-	knockdown_stam_max = null
-	// strong_tase = FALSE
+/obj/item/projectile/energy/electrode/security/hos // Lumos change

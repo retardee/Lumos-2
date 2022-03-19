@@ -83,7 +83,7 @@
 /obj/item/projectile/beam/disabler
 	name = "disabler beam"
 	icon_state = "omnilaser"
-	damage = 36 // Lumos change, reverts Citadel "balance" change from 28 back to 36
+	damage = 30 // Lumos change, 28 to 30
 	damage_type = STAMINA
 	flag = "energy"
 	hitsound = 'sound/weapons/tap.ogg'

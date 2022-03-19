@@ -16,7 +16,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
 	attack_speed = CLICK_CD_MELEE
 
-	var/stamina_loss_amount = 35
+	var/stamina_loss_amount = 60 // Lumos change from 35 to 60
 	var/turned_on = FALSE
 	var/armor_pen = 100
 	var/knockdown = TRUE
@@ -213,7 +213,7 @@
 		return FALSE
 
 	if(shoving && COOLDOWN_FINISHED(src, shove_cooldown) && !HAS_TRAIT(L, TRAIT_IWASBATONED)) //Rightclicking applies a knockdown, but only once every couple of seconds, based on the cooldown_duration var. If they were recently knocked down, they can't be knocked down again by a baton.
-		L.DefaultCombatKnockdown(50, override_stamdmg = 0)
+		L.DefaultCombatKnockdown(50, override_stamdmg = 60) // Lumos changes from 0 to 60
 		L.apply_status_effect(STATUS_EFFECT_TASED_WEAK_NODMG, status_duration) //Even if they shove themselves up, they're still slowed.
 		L.apply_status_effect(STATUS_EFFECT_OFF_BALANCE, status_duration) //They're very likely to drop items if shoved briefly after a knockdown.
 		shoved = TRUE
@@ -324,7 +324,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	force = 3
 	throwforce = 5
-	stamina_loss_amount = 30
+	stamina_loss_amount = 40 // Lumos change 30 to 40
 	armor_pen = 35
 	hitcost = 1000
 	throw_hit_chance = 10

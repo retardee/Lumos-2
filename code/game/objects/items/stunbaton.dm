@@ -213,7 +213,7 @@
 		return FALSE
 
 	if(shoving && COOLDOWN_FINISHED(src, shove_cooldown) && !HAS_TRAIT(L, TRAIT_IWASBATONED)) //Rightclicking applies a knockdown, but only once every couple of seconds, based on the cooldown_duration var. If they were recently knocked down, they can't be knocked down again by a baton.
-		L.DefaultCombatKnockdown(50, override_stamdmg = 60) // Lumos changes from 0 to 60
+		L.DefaultCombatKnockdown(50, override_stamdmg = 30) // Lumos changes from 0 to 30
 		L.apply_status_effect(STATUS_EFFECT_TASED_WEAK_NODMG, status_duration) //Even if they shove themselves up, they're still slowed.
 		L.apply_status_effect(STATUS_EFFECT_OFF_BALANCE, status_duration) //They're very likely to drop items if shoved briefly after a knockdown.
 		shoved = TRUE

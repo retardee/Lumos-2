@@ -6479,33 +6479,32 @@
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hos)
 "amH" = (
-/obj/structure/bed/dogbed/cayenne{
-	name = "Lia's bed"
-	},
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
 /mob/living/simple_animal/hostile/retaliate/bat{
-	desc = "A failed experiment of Nanotrasen to create weaponised carp technology. This less than intimidating carp now serves as an authority figure's pet.";
-	emote_taunt = list("gnashes");
-	faction = list("carp");
+	desc = "A fierce companion for any person of power, this spider has been carefully trained by Nanotrasen specialists. Its beady, staring eyes send shivers down your spine.";
+	emote_hear = list("chitters");
+	faction = list("spiders");
 	harm_intent_damage = 3;
 	health = 200;
-	icon_dead = "magicarp_dead";
-	icon_gib = "magicarp_gib";
-	icon_living = "magicarp";
-	icon_state = "magicarp";
-	maxHealth = 200;
+	icon_dead = "guard_dead";
+	icon_gib = "guard_dead";
+	icon_living = "guard";
+	icon_state = "guard";
+	maxHealth = 250;
 	max_co2 = 5;
 	max_tox = 2;
 	melee_damage_lower = 15;
 	melee_damage_upper = 20;
 	min_oxy = 5;
-	name = "Lia";
-	real_name = "Lia";
-	response_help_continuous = "pets";
-	response_help_simple = "pet";
+	movement_type = 1;
+	name = "Sergeant Araneus";
+	real_name = "Sergeant Araneus";
 	turns_per_move = 10
+	},
+/obj/structure/bed/dogbed{
+	name = "Araneus' bed"
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hos)
@@ -35260,7 +35259,6 @@
 	icon_state = "2-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/carp/cargo,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "bjR" = (
@@ -45403,7 +45401,6 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/mob/living/simple_animal/sloth/citrus,
 /turf/open/floor/plasteel,
 /area/cargo/sorting)
 "bBN" = (
@@ -81417,6 +81414,11 @@
 /obj/effect/landmark/carpspawn,
 /turf/open/floor/plating/airless,
 /area/solars/port/aft)
+"lsb" = (
+/obj/effect/turf_decal/bot,
+/mob/living/simple_animal/pet/dog/cheems,
+/turf/open/floor/plasteel,
+/area/cargo/storage)
 "lsV" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/table/wood,
@@ -126028,7 +126030,7 @@ bjR
 bkq
 bkA
 bke
-blK
+lsb
 bkY
 blD
 bAU

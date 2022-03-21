@@ -462,15 +462,15 @@
 /turf/open/floor/plasteel/yellowsiding/corner,
 /area/commons/fitness/pool)
 "abd" = (
-/obj/structure/closet/lasertag/red,
+/obj/machinery/vending/clothing,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abe" = (
-/obj/machinery/vending/kink,
 /obj/machinery/status_display/evac{
 	pixel_x = 32;
 	pixel_y = 32
 	},
+/obj/structure/closet/lasertag/blue,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abf" = (
@@ -487,14 +487,13 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/closet/lasertag/blue,
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abj" = (
@@ -4658,7 +4657,6 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "alb" = (
-/obj/structure/reagent_dispensers/keg/aphro,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
 "alc" = (
@@ -9872,10 +9870,10 @@
 /turf/open/floor/plating,
 /area/commons/fitness/recreation)
 "awB" = (
-/obj/machinery/vending/clothing,
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/structure/closet/lasertag/red,
 /turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},

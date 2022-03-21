@@ -18262,7 +18262,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/vending/kink,
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "aQY" = (
@@ -56580,10 +56580,6 @@
 	},
 /turf/open/floor/wood/wood_diagonal,
 /area/maintenance/port/fore)
-"kqy" = (
-/obj/machinery/gear_painter,
-/turf/open/floor/plasteel,
-/area/commons/fitness)
 "kqI" = (
 /obj/structure/window,
 /turf/open/floor/wood,
@@ -57075,7 +57071,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "lsk" = (
-/obj/machinery/vending/kink,
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/fitness)
 "ltK" = (
@@ -58731,7 +58727,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "pqR" = (
@@ -98706,7 +98701,7 @@ awB
 att
 azh
 fHG
-kqy
+fHG
 kxf
 ufD
 alP

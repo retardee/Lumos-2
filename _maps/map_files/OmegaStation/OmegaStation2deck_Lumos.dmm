@@ -2459,8 +2459,8 @@
 /turf/open/floor/plating,
 /area/asteroid/nearstation)
 "jV" = (
-/obj/structure/reagent_dispensers/keg/aphro/strong,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/kink,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/bar)
 "jW" = (
@@ -5626,7 +5626,6 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/oldomega/HigherHall)
 "wP" = (
-/obj/machinery/vending/kink,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb{
 	icon_state = "cobweb2"
@@ -8360,7 +8359,6 @@
 "HI" = (
 /obj/structure/table/wood,
 /obj/item/melee/flyswatter,
-/obj/item/clothing/shoes/jackboots,
 /obj/machinery/light/small,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
@@ -11792,18 +11790,13 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/oldomega/HigherHall)
 "WM" = (
-/obj/item/restraints/handcuffs/fake/kinky,
 /obj/structure/table/wood,
-/obj/item/dildo/random,
-/obj/item/dildo/random,
-/obj/item/restraints/handcuffs/fake/kinky,
-/obj/item/electropack/shockcollar,
-/obj/item/assembly/signaler,
 /obj/machinery/light/small{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/item/clothing/shoes/jackboots,
 /turf/open/floor/wood,
 /area/maintenance/port/fore)
 "WP" = (

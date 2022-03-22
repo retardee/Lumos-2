@@ -995,9 +995,26 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/mob/living/simple_animal/hostile/retaliate/bat/secbat{
-	desc = "An adorable fruit bat with a cute little hat, may or may not have a reputation for biting out eyeballs, or at least that's what the HoS'd tell you.";
-	name = "Colonel Chomps"
+/mob/living/simple_animal/hostile/retaliate/bat{
+	desc = "A fierce companion for any person of power, this spider has been carefully trained by Nanotrasen specialists. Its beady, staring eyes send shivers down your spine.";
+	emote_hear = list("chitters");
+	faction = list("spiders");
+	harm_intent_damage = 3;
+	health = 200;
+	icon_dead = "guard_dead";
+	icon_gib = "guard_dead";
+	icon_living = "guard";
+	icon_state = "guard";
+	maxHealth = 250;
+	max_co2 = 5;
+	max_tox = 2;
+	melee_damage_lower = 15;
+	melee_damage_upper = 20;
+	min_oxy = 5;
+	movement_type = 1;
+	name = "Sergeant Araneus";
+	real_name = "Sergeant Araneus";
+	turns_per_move = 10
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hos)
@@ -32139,21 +32156,9 @@
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "byC" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/carp/cargo{
-	icon_state = "cargo_carp"
-	},
-/obj/structure/bed/dogbed/ian{
-	desc = "A bed for carp.";
-	name = "Jerry's bed"
-	},
+/mob/living/simple_animal/pet/dog/cheems,
 /turf/open/floor/plasteel,
-/area/cargo/qm)
+/area/cargo/storage)
 "byD" = (
 /obj/structure/closet/secure_closet/quartermaster,
 /obj/machinery/airalarm{
@@ -39941,6 +39946,9 @@
 /area/science/misc_lab)
 "bQV" = (
 /obj/machinery/nanite_program_hub,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/science/nanite)
 "bQW" = (
@@ -56856,13 +56864,6 @@
 "kQk" = (
 /turf/closed/wall,
 /area/maintenance/department/medical/morgue)
-"kQq" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/mob/living/simple_animal/sloth/citrus,
-/turf/open/floor/plasteel,
-/area/cargo/storage)
 "kQz" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -82547,7 +82548,7 @@ bjr
 bjr
 bmh
 boK
-bjr
+byC
 boK
 bjr
 bjr
@@ -83316,7 +83317,7 @@ aZE
 xBw
 bjr
 bjr
-kQq
+bmh
 bjr
 bjr
 bjr
@@ -83838,7 +83839,7 @@ brN
 brN
 brN
 bxx
-byC
+byz
 bzT
 byl
 bxx

@@ -78963,6 +78963,7 @@
 	pixel_x = 6;
 	pixel_y = 28
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain/private)
 "vDS" = (

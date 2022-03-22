@@ -6968,6 +6968,7 @@
 /obj/structure/closet/crate/bin{
 	pixel_y = 6
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/department/shuttle/bridge)
 "Mj" = (

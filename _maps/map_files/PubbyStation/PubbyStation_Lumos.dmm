@@ -10369,6 +10369,7 @@
 /area/hallway/primary/fore)
 "axN" = (
 /obj/structure/dresser,
+/obj/item/card/id/captains_spare,
 /turf/open/floor/plasteel/grimy,
 /area/command/heads_quarters/captain/private)
 "axO" = (

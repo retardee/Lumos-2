@@ -108,7 +108,7 @@
 
 /turf/open/floor/plating/beach
 	name = "beach"
-	icon = 'icons/misc/beach.dmi'
+	icon = 'modular_lumos/icons/misc/beach.dmi'
 	flags_1 = NONE
 	attachment_holes = FALSE
 	bullet_bounce_sound = null
@@ -127,13 +127,17 @@
 	gender = PLURAL
 	name = "sand"
 	desc = "Surf's up."
-	icon_state = "sand"
+	icon_state = "desert0" // Lumos edit
 	baseturfs = /turf/open/floor/plating/beach/sand
+
+/turf/open/floor/plating/beach/sand/Initialize() // Lumos edit
+	icon_state = "[icon_state][rand(1, 9)]"
+	. = ..()
 
 /turf/open/floor/plating/beach/coastline_t
 	name = "coastline"
 	desc = "Tide's high tonight. Charge your batons."
-	icon_state = "sandwater_t"
+	icon_state = "beach"
 	baseturfs = /turf/open/floor/plating/beach/coastline_t
 
 /turf/open/floor/plating/beach/coastline_b
@@ -148,8 +152,13 @@
 	icon_state = "water"
 	baseturfs = /turf/open/floor/plating/beach/water
 
+/turf/open/floor/plating/beach/water/shallow // Lumos edit - forgoing the tide animated turf
+	name = "shallow water"
+	desc = "It's shallow water, about knee height. Watch for sharps."
+	icon_state = "seashallow"
+
 /turf/open/floor/plating/beach/coastline_t/sandwater_inner
-	icon_state = "sandwater_inner"
+	icon_state = "beachcorner" // Lumos Edit
 	baseturfs = /turf/open/floor/plating/beach/coastline_t/sandwater_inner
 
 /turf/open/floor/plating/ironsand

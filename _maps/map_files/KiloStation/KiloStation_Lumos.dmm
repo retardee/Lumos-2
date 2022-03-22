@@ -48106,7 +48106,7 @@
 "bGE" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/vending/snack/random,
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "bGG" = (
@@ -49254,7 +49254,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/vending/kink,
+/obj/machinery/vending/clothing,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "bJb" = (
@@ -65343,10 +65343,10 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery,
-/obj/machinery/vending/clothing,
 /obj/item/radio/intercom{
 	pixel_y = -28
 	},
+/obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "cls" = (
@@ -65482,7 +65482,7 @@
 	},
 /obj/machinery/light/small,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/gear_painter,
+/obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "clG" = (

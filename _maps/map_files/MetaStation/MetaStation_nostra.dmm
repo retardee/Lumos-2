@@ -66777,6 +66777,7 @@
 	pixel_x = -30;
 	pixel_y = 1
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/captain/private)
 "ojC" = (

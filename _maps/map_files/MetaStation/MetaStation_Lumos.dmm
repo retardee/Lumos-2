@@ -52433,7 +52433,6 @@
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "fxX" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -52444,6 +52443,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/wardrobe/black,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "fxY" = (
@@ -56766,9 +56766,6 @@
 /area/cargo/warehouse)
 "iiK" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/mob/living/simple_animal/hostile/carp/cargo{
-	icon_state = "cargo_carp"
-	},
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "iiP" = (
@@ -56928,7 +56925,6 @@
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
 "ipj" = (
-/obj/structure/closet/wardrobe/white,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -56939,6 +56935,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "ipm" = (
@@ -61976,8 +61973,8 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/command/heads_quarters/cmo)
 "ljz" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/mob/living/simple_animal/sloth/citrus,
+/obj/effect/turf_decal/bot,
+/mob/living/simple_animal/pet/dog/cheems,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
 "ljM" = (
@@ -63590,7 +63587,6 @@
 /turf/open/floor/plasteel,
 /area/commons/storage/primary)
 "mig" = (
-/obj/machinery/vending/clothing,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -63601,6 +63597,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/wardrobe/grey,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "miq" = (
@@ -64365,10 +64362,6 @@
 /area/engineering/gravity_generator)
 "mER" = (
 /obj/structure/table,
-/obj/item/clothing/head/soft/grey{
-	pixel_x = -2;
-	pixel_y = 3
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -67146,7 +67139,6 @@
 /turf/open/floor/plasteel,
 /area/commons/locker)
 "out" = (
-/obj/structure/closet/wardrobe/black,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -67157,6 +67149,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/vending/clothing,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "ouC" = (
@@ -72835,7 +72828,7 @@
 	dir = 8
 	},
 /obj/machinery/light,
-/obj/machinery/gear_painter,
+/obj/structure/closet/wardrobe/white,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "rLH" = (
@@ -78963,6 +78956,7 @@
 	pixel_x = 6;
 	pixel_y = 28
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain/private)
 "vDS" = (
@@ -80270,7 +80264,6 @@
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
 "wsX" = (
-/obj/structure/closet/wardrobe/grey,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -80286,6 +80279,11 @@
 	},
 /obj/structure/sign/poster/official/fashion{
 	pixel_y = -32
+	},
+/obj/structure/table,
+/obj/item/clothing/head/soft/grey{
+	pixel_x = -2;
+	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
@@ -101854,7 +101852,7 @@ mKW
 qKo
 mKW
 dRx
-ljz
+mKW
 nUn
 mKW
 mXL
@@ -102110,7 +102108,7 @@ jfl
 mIE
 hpe
 mIE
-iKS
+ljz
 mIE
 lEn
 mIE

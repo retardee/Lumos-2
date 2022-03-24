@@ -65596,6 +65596,7 @@
 /area/command/heads_quarters/captain/private)
 "cgy" = (
 /obj/structure/dresser,
+/obj/item/card/id/captains_spare,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/captain/private)
 "cgz" = (

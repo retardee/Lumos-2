@@ -1349,9 +1349,15 @@
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
 "abR" = (
-/obj/structure/destructible/clockwork,
-/turf/open/space/basic,
-/area/space)
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/mob/living/simple_animal/pet/dog/cheems,
+/turf/open/floor/plasteel/dark,
+/area/cargo/storage)
 "abT" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable/white{
@@ -2350,6 +2356,8 @@
 	c_tag = "Captain's Quarters";
 	dir = 1
 	},
+/obj/structure/bed/dogbed/renault,
+/mob/living/simple_animal/pet/fox/Renault,
 /turf/open/floor/wood{
 	icon_state = "wood-broken"
 	},
@@ -3410,6 +3418,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/plasteel/grimy,
 /area/command/heads_quarters/captain/private)
 "afI" = (
@@ -6565,8 +6574,6 @@
 	dir = 2;
 	name = "command camera"
 	},
-/obj/structure/bed/dogbed/renault,
-/mob/living/simple_animal/pet/fox/Renault,
 /turf/open/floor/carpet{
 	icon_state = "carpetsymbol"
 	},
@@ -44079,18 +44086,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/oldomega/OldAtmos)
-"hCD" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 8
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/carp/cargo{
-	icon_state = "cargo_carp"
-	},
-/turf/open/floor/plasteel/dark,
-/area/cargo/storage)
 "hCU" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable/white{
@@ -45054,6 +45049,30 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/bed/dogbed{
+	name = "Araneus' bed"
+	},
+/mob/living/simple_animal/hostile/retaliate/bat{
+	desc = "A fierce companion for any person of power, this spider has been carefully trained by Nanotrasen specialists. Its beady, staring eyes send shivers down your spine.";
+	emote_hear = list("chitters");
+	faction = list("spiders");
+	harm_intent_damage = 3;
+	health = 200;
+	icon_dead = "guard_dead";
+	icon_gib = "guard_dead";
+	icon_living = "guard";
+	icon_state = "guard";
+	maxHealth = 250;
+	max_co2 = 5;
+	max_tox = 2;
+	melee_damage_lower = 15;
+	melee_damage_upper = 20;
+	min_oxy = 5;
+	movement_type = 1;
+	name = "Sergeant Araneus";
+	real_name = "Sergeant Araneus";
+	turns_per_move = 10
+	},
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "jIh" = (
@@ -45580,7 +45599,6 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/neutral,
-/mob/living/simple_animal/sloth/citrus,
 /turf/open/floor/plasteel/dark,
 /area/cargo/warehouse)
 "kTr" = (
@@ -52433,27 +52451,6 @@
 "wOt" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/mob/living/simple_animal/hostile/retaliate/bat{
-	desc = "A fierce companion for any person of power, this spider has been carefully trained by Nanotrasen specialists. Its beady, staring eyes send shivers down your spine.";
-	emote_hear = list("chitters");
-	faction = list("spiders");
-	harm_intent_damage = 3;
-	health = 200;
-	icon_dead = "guard_dead";
-	icon_gib = "guard_dead";
-	icon_living = "guard";
-	icon_state = "guard";
-	maxHealth = 250;
-	max_co2 = 5;
-	max_tox = 2;
-	melee_damage_lower = 15;
-	melee_damage_upper = 20;
-	min_oxy = 5;
-	movement_type = 1;
-	name = "Sergeant Araneus";
-	real_name = "Sergeant Araneus";
-	turns_per_move = 10
 	},
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
@@ -99443,8 +99440,8 @@ nvX
 ahm
 jOR
 amy
+abR
 amy
-hCD
 amy
 cXQ
 fIU
@@ -104825,7 +104822,7 @@ aaa
 aaa
 aaa
 aaa
-abR
+aaa
 aaa
 aaa
 aaa

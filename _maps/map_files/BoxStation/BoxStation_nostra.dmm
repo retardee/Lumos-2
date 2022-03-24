@@ -26953,6 +26953,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
+/obj/item/card/id/captains_spare,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/captain)
 "bmA" = (
@@ -39940,6 +39941,9 @@
 /area/science/misc_lab)
 "bQV" = (
 /obj/machinery/nanite_program_hub,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/science/nanite)
 "bQW" = (

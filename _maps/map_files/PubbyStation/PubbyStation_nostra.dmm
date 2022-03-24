@@ -4658,7 +4658,6 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "alb" = (
-/obj/structure/reagent_dispensers/keg/aphro,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
 "alc" = (

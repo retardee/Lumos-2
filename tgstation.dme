@@ -3837,6 +3837,7 @@
 #include "modular_citadel\code\modules\vectorcrafts\vectorcraft.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectortruck.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectorvariants.dm"
+#include "modular_lumos\code\tile_coloring.dm"
 #include "modular_lumos\code\fishing\fish_eggs.dm"
 #include "modular_lumos\code\fishing\fish_fishes.dm"
 #include "modular_lumos\code\fishing\fish_tools.dm"

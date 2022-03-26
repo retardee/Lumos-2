@@ -1,4 +1,4 @@
-## Nostra-13
+## Lumos-13
 Based and maintained from Sandstorm.
 
 ![CI Suite](https://github.com/nuke-ops/Nostra-13/workflows/CI%20Suite/badge.svg?branch=master)
@@ -12,11 +12,11 @@ Based and maintained from Sandstorm.
 [![forthebadge](http://forthebadge.com/images/badges/you-didnt-ask-for-this.svg)](http://forthebadge.com)
 [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
-**Nostra Information**
+**Lumos Information**
 * **Website:** http://nukeops.com/ss13
-* **Code:** https://github.com/nuke-ops/Nostra-13
+* **Code:** https://github.com/Lumos-SS13/Lumos-2
 * **Forums:** Not yet?
-* **Discord:**  [Here](https://discord.gg/bxgeRPq)
+* **Discord:**  [Here](https://discord.gg/WbgQNaGhMQ)
 * **Ban Appeals:** at discord ^
 * **Codedocs:** https://nuke-ops.github.io/Nostra-13/
 

@@ -497,7 +497,12 @@
 //Generate assorted uplink items, taking into account the same surplus modifiers used for surplus crates
 //(this is exclusively used for the rare variant of the stray cargo event!)
 /datum/supply_pack/misc/syndicate/fill(obj/structure/closet/crate/C)
+	/* LUMOS EDIT REMOVAL
 	var/list/uplink_items = get_uplink_items(SSticker.mode)
+	*/
+	//LUMOS EDIT BEGIN
+	var/list/uplink_items = get_uplink_items(UPLINK_TRAITORS | UPLINK_NUKE_OPS)
+	//LUMOS EDIT END
 	while(crate_value)
 		var/category = pick(uplink_items)
 		var/item = pick(uplink_items[category])

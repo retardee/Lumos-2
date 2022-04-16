@@ -36677,7 +36677,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/vending/kink,
+/obj/machinery/computer/slot_machine,
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bjS" = (

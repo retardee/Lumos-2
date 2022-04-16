@@ -466,11 +466,11 @@
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abe" = (
-/obj/machinery/vending/kink,
 /obj/machinery/status_display/evac{
 	pixel_x = 32;
 	pixel_y = 32
 	},
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abf" = (
@@ -494,7 +494,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/obj/machinery/gear_painter,
+/obj/machinery/vending/autodrobe,
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "abj" = (
@@ -4658,7 +4658,6 @@
 /turf/open/space/basic,
 /area/space/nearstation)
 "alb" = (
-/obj/structure/reagent_dispensers/keg/aphro,
 /turf/open/floor/wood,
 /area/maintenance/department/crew_quarters/dorms)
 "alc" = (

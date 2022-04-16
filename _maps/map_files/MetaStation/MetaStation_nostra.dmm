@@ -52433,7 +52433,6 @@
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
 "fxX" = (
-/obj/machinery/vending/kink,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -52444,6 +52443,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/vending/clothing,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "fxY" = (
@@ -63587,7 +63587,6 @@
 /turf/open/floor/plasteel,
 /area/commons/storage/primary)
 "mig" = (
-/obj/machinery/vending/clothing,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
@@ -63598,6 +63597,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/gear_painter,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "miq" = (
@@ -72832,7 +72832,7 @@
 	dir = 8
 	},
 /obj/machinery/light,
-/obj/machinery/gear_painter,
+/obj/machinery/vending/autodrobe,
 /turf/open/floor/plasteel/dark,
 /area/commons/locker)
 "rLH" = (

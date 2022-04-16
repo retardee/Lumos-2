@@ -49247,15 +49247,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
-"bIZ" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/machinery/vending/kink,
-/turf/open/floor/plasteel/dark,
-/area/commons/locker)
 "bJb" = (
 /obj/item/target/clown,
 /obj/structure/window/reinforced{
@@ -109580,7 +109571,7 @@ bAN
 bAN
 boR
 aMF
-bIZ
+aMF
 btS
 bwa
 bxS

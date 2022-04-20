@@ -32577,7 +32577,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/medical{
-	name = "Paramedic's Dispatch;
+	name = "Paramedic's Dispatch";
 	req_access_txt = "5;6;12"
 	},
 /obj/machinery/door/poddoor/preopen{

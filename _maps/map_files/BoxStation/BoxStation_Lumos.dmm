@@ -25377,7 +25377,7 @@
 "brD" = (
 /obj/structure/table/wood/fancy/royalblue,
 /obj/machinery/door/window/eastright{
-	name = "Secure Art Exhibition"";
+	name = "Secure Art Exhibition";
 	req_access_txt = "37"
 	},
 /obj/structure/sign/painting/library_secure{

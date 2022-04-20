@@ -3928,7 +3928,7 @@
 	},
 /obj/effect/turf_decal/tile/red/fulltile,
 /obj/machinery/door/airlock/command{
-	name = "Head of Security;
+	name = "Head of Security";
 	req_access_txt = "58"
 	},
 /turf/open/floor/plasteel/dark,
@@ -45296,7 +45296,7 @@
 	},
 /obj/machinery/door/window/eastright{
 	dir = 2;
-	name = "Secure Art Exhibition"";
+	name = "Secure Art Exhibition";
 	req_access_txt = "37"
 	},
 /obj/structure/sign/painting/library_secure{

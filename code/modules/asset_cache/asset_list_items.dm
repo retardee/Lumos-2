@@ -557,11 +557,11 @@
 		"inventory-collar.png" = 'icons/ui_icons/inventory/collar.png',
 
 		///Sandstorm content
-		"inventory-ears_extra.png" = 'modular_sand/icons/ui_icons/inventory/ears_extra.png',
-		"inventory-underwear.png" = 'modular_sand/icons/ui_icons/inventory/underwear.png',
-		"inventory-socks.png" = 'modular_sand/icons/ui_icons/inventory/socks.png',
-		"inventory-undershirt.png" = 'modular_sand/icons/ui_icons/inventory/undershirt.png',
-		"inventory-wrists.png" = 'modular_sand/icons/ui_icons/inventory/wrists.png',
+		"inventory-ears_extra.png" = 'modular_lumos/icons/ui_icons/inventory/ears_extra.png',
+		"inventory-underwear.png" = 'modular_lumos/icons/ui_icons/inventory/underwear.png',
+		"inventory-socks.png" = 'modular_lumos/icons/ui_icons/inventory/socks.png',
+		"inventory-undershirt.png" = 'modular_lumos/icons/ui_icons/inventory/undershirt.png',
+		"inventory-wrists.png" = 'modular_lumos/icons/ui_icons/inventory/wrists.png',
 	)
 
 /// Removes all non-alphanumerics from the text, keep in mind this can lead to id conflicts

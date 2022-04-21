@@ -324,7 +324,7 @@
       \uFE0F Synthetic honey."
   maksxpl:
   - bugfix: changed sandcode/ dir with all it's paths to an actual standards
-  - bugfix: fixed trailing newlines in modular_sand
+  - bugfix: fixed trailing newlines in modular_lumos
   necromanceranne:
   - rscadd: Adds new roboticist labcoat sprites!
   timothyteakettle:

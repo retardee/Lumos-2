@@ -1,0 +1,95 @@
+/datum/crafting_recipe/protolathe
+	name = "Protolathe Board"
+	result = /obj/item/circuitboard/machine/protolathe
+	reqs = list(/obj/item/circuitboard/machine/techfab/department/cargo = 1,
+				/obj/item/circuitboard/machine/techfab/department/engineering = 1,
+				/obj/item/circuitboard/machine/techfab/department/medical = 1,
+				/obj/item/circuitboard/machine/techfab/department/science = 1,
+				/obj/item/circuitboard/machine/techfab/department/security = 1,
+				/obj/item/circuitboard/machine/techfab/department/service = 1,
+				/obj/item/stack/cable_coil = 15) //Nostra change
+	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
+	time = 20
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/* Nostra change
+/datum/crafting_recipe/crowbar
+	name = "Makeshift Crowbar"
+	result = /obj/item/crowbar/makeshift
+	reqs = list(/obj/item/stack/rods = 2)
+	time = 40
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/screwdriver
+	name = "Makeshift Screwdriver"
+	result = /obj/item/screwdriver/makeshift
+	reqs = list(/obj/item/stack/rods = 1)
+	tools = list(TOOL_CROWBAR)
+	time = 20
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/wirecutters
+	name = "Wirecutters"
+	result = /obj/item/wirecutters/makeshift
+	reqs = list(/obj/item/stack/rods = 2,
+				/obj/item/stack/cable_coil = 5)
+	tools = list(TOOL_CROWBAR, TOOL_SCREWDRIVER)
+	time = 50
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/wrench
+	name = "Wrench"
+	result = /obj/item/wrench/makeshift
+	reqs = list(/obj/item/stack/rods = 1,
+				/obj/item/stack/sheet/metal = 1)
+	tools = list(TOOL_CROWBAR, TOOL_SCREWDRIVER)
+	time = 30
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/emergency_welder
+	name = "Makeshift Welder"
+	result = /obj/item/weldingtool/makeshift
+	reqs = list(/obj/item/stack/rods = 1,
+				/obj/item/assembly/igniter = 1,
+				/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/cable_coil = 5)
+	tools = list(TOOL_CROWBAR, TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
+	time = 30
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/toolbox
+	name = "Toolbox"
+	result = /obj/item/storage/toolbox/greyscale
+	reqs = list(/obj/item/stack/rods = 3,
+				/obj/item/stack/sheet/metal = 5,
+				/obj/item/stack/cable_coil = 5)
+	tools = list(TOOL_CROWBAR, TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
+	time = 70
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/bin
+	name = "Makeshift Matter Bin"
+	result = /obj/item/stock_parts/matter_bin/makeshift
+	reqs = list(/obj/item/stack/sheet/metal = 3)
+	tools = list(TOOL_WIRECUTTER, TOOL_WELDER)
+	time = 70
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+
+/datum/crafting_recipe/makeshift_manipulator
+	name = "Makeshift Manipulator"
+	result = /obj/item/stock_parts/manipulator/makeshift
+	reqs = list(/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/cable_coil = 5)
+	tools = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_WELDER)
+	time = 70
+	subcategory = CAT_TOOL
+	category = CAT_MISCELLANEOUS
+*/

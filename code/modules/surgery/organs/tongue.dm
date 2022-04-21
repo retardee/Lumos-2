@@ -29,14 +29,14 @@
 		/datum/language/neokanji,
 		/datum/language/sylvan,
 		/datum/language/machine, //Skyrat change - adds machine language
-		/datum/language/modular_sand/calcic, //Skyrat change - plasmaman language
-		/datum/language/modular_sand/dunmeri, //Skyrat change - dunmer language
-		/datum/language/modular_sand/moffic, //Skyrat change - insect language
-		/datum/language/modular_sand/shadowtongue, //Skyrat change - shadowpeople language
-		/datum/language/modular_sand/solcommon, //Skyrat change - sol common blah blah
-		/datum/language/modular_sand/technorussian, //Skyrat change - russian stereotype language
-		/datum/language/modular_sand/sergal, //Sandstorm change
-		/datum/language/modular_sand/buggy, //Lumos change - bug language; Not sure why this wasn't enabled
+		/datum/language/modular_lumos/calcic, //Skyrat change - plasmaman language
+		/datum/language/modular_lumos/dunmeri, //Skyrat change - dunmer language
+		/datum/language/modular_lumos/moffic, //Skyrat change - insect language
+		/datum/language/modular_lumos/shadowtongue, //Skyrat change - shadowpeople language
+		/datum/language/modular_lumos/solcommon, //Skyrat change - sol common blah blah
+		/datum/language/modular_lumos/technorussian, //Skyrat change - russian stereotype language
+		/datum/language/modular_lumos/sergal, //Sandstorm change
+		/datum/language/modular_lumos/buggy, //Lumos change - bug language; Not sure why this wasn't enabled
 	))
 	healing_factor = STANDARD_ORGAN_HEALING*5 //Fast!!
 	decay_factor = STANDARD_ORGAN_DECAY/2

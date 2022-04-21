@@ -141,7 +141,7 @@
 	if(requires_rebuild)
 		rebuild_modules()
 	return I
-*/ //replaced by the one in modular_sand
+*/ //replaced by the one in modular_lumos
 
 //Adds flavoursome dogborg items to dogborg variants optionally without mechanical benefits
 /obj/item/robot_module/proc/dogborg_equip()
@@ -393,7 +393,7 @@
 		"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinamed"),
 		"Eyebot" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "eyebotmed"),
 		"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavymed"),
-		"Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakemedbox")
+		"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakemedbox")
 		)
 		var/list/L = list("Medihound" = "medihound", "Medihound Dark" = "medihounddark", "Vale" = "valemed")
 		for(var/a in L)
@@ -456,7 +456,7 @@
 			dogborg = TRUE
 		if("Drake") // Dergborg brought to you by Navier#1236 | Skyrat | Commissioned Artist: deviantart.com/mizartz
 			cyborg_base_icon = "drakemed"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			sleeper_overlay = "drakemedsleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_citadel/icons/ui/screen_cyborg.dmi'
@@ -518,7 +518,7 @@
 		"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinaeng"),
 		"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "spidereng"),
 		"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavyeng"),
-		"Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeengbox")
+		"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeengbox")
 		)
 		var/list/L = list("Pup Dozer" = "pupdozer", "Vale" = "valeeng")
 		for(var/a in L)
@@ -578,7 +578,7 @@
 			dogborg = TRUE
 		if("Drake") // Dergborg brought to you by Navier#1236 | Skyrat | Commissioned Artist: deviantart.com/mizartz
 			cyborg_base_icon = "drakeeng"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			sleeper_overlay = "drakesecsleeper"
 			dogborg = TRUE
 		else
@@ -620,7 +620,7 @@
 		"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinasec"),
 		"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "spidersec"),
 		"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavysec"),
-		"Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakesecbox")
+		"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakesecbox")
 		)
 		var/list/L = list("K9" = "k9", "Vale" = "valesec", "K9 Dark" = "k9dark")
 		for(var/a in L)
@@ -679,7 +679,7 @@
 		if("Drake") // Dergborg brought to you by Navier#1236 | Skyrat | Commissioned Artist: deviantart.com/mizartz
 			cyborg_base_icon = "drakesec"
 			sleeper_overlay = "drakesecsleeper"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			dogborg = TRUE
 		else
 			return FALSE
@@ -725,7 +725,7 @@
 		"Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "peace"),
 		"Borgi" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "borgi"),
 		"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "whitespider"),
-		"Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakepeacebox")
+		"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakepeacebox")
 		))
 	var/peace_borg_icon = show_radial_menu(R, R , peace_icons, custom_check = CALLBACK(src, .proc/check_menu, R), radius = 42, require_near = TRUE)
 	switch(peace_borg_icon)
@@ -744,7 +744,7 @@
 		if("Drake")
 			cyborg_base_icon = "drakepeace"
 			sleeper_overlay = "drakepeacesleeper"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			dogborg = TRUE
 		else
 			return FALSE
@@ -885,7 +885,7 @@
 		"(Janitor) Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekjan"),
 		"(Janitor) Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "canjan"),
 		"(Janitor) Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavyjan"),
-		"(Janitor) Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakejanitbox")
+		"(Janitor) Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakejanitbox")
 		)
 		var/list/L = list("(Service) DarkK9" = "k50", "(Service) Vale" = "valeserv", "(Service) ValeDark" = "valeservdark",
 						"(Janitor) Scrubpuppy" = "scrubpup")
@@ -959,7 +959,7 @@
 			dogborg = TRUE
 		if("(Janitor) Drake") // Dergborg brought to you by Navier#1236 | Skyrat | Commissioned Artist: deviantart.com/mizartz
 			cyborg_base_icon = "drakejanit"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			sleeper_overlay = "drakesecsleeper"
 			dogborg = TRUE
 		else
@@ -1009,7 +1009,7 @@
 		"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinamin"),
 		"Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "canmin"),
 		"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavymin"),
-		"Drake" = image(icon = 'modular_sand/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeminebox")
+		"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeminebox")
 		)
 		var/list/L = list("Blade" = "blade", "Vale" = "valemine")
 		for(var/a in L)
@@ -1055,7 +1055,7 @@
 			dogborg = TRUE
 		if("Drake") // Dergborg brought to you by Navier#1236 | Skyrat | Commissioned Artist: deviantart.com/mizartz
 			cyborg_base_icon = "drakemine"
-			cyborg_icon_override = 'modular_sand/icons/mob/cyborg/drakemech.dmi'
+			cyborg_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'
 			sleeper_overlay = "drakeminesleeper"
 			dogborg = TRUE
 		else

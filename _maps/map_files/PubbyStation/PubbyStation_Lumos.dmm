@@ -3087,8 +3087,10 @@
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
 "aku" = (
-/obj/machinery/atmospherics/components/trinary/mixer/flipped/layer1{
-	dir = 1
+/obj/machinery/atmospherics/components/trinary/mixer/flipped/on/layer1{
+	dir = 1;
+	node1_concentration = 0.21;
+	node2_concentration = 0.79
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
@@ -4162,7 +4164,8 @@
 /obj/machinery/button/door{
 	id = "Secure Gate";
 	name = "Brig Shutters Control";
-	pixel_y = 35
+	pixel_y = 35;
+	req_access_txt = "3"
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/warden)
@@ -4557,7 +4560,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/components/binary/valve/on/layer1{
+/obj/machinery/atmospherics/components/binary/valve/layer1{
 	dir = 4;
 	name = "Supply to Security"
 	},
@@ -7109,7 +7112,8 @@
 	id = "Secure Gate";
 	name = "Brig Shutters Control";
 	pixel_x = 6;
-	pixel_y = 38
+	pixel_y = 38;
+	req_access_txt = "63"
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
@@ -10355,7 +10359,8 @@
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal/bin,
 /obj/item/storage/secure/safe{
-	pixel_x = -22
+	pixel_x = 6;
+	pixel_y = 22
 	},
 /turf/open/floor/wood,
 /area/security/detectives_office)
@@ -10363,28 +10368,16 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/machinery/requests_console{
-	department = "Detective's office";
-	pixel_y = 30
-	},
-/obj/structure/rack,
-/obj/item/storage/briefcase{
-	pixel_x = -3;
-	pixel_y = 2
-	},
-/obj/item/taperecorder{
-	pixel_x = 5
-	},
 /turf/open/floor/wood,
 /area/security/detectives_office)
 "aCn" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/filingcabinet/security,
 /obj/structure/sign/poster/official/space_cops{
 	pixel_y = 32
 	},
+/obj/machinery/vending/wardrobe/det_wardrobe,
 /turf/open/floor/wood,
 /area/security/detectives_office)
 "aCo" = (
@@ -10845,6 +10838,14 @@
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
 	pixel_x = -27
+	},
+/obj/structure/rack,
+/obj/item/storage/briefcase{
+	pixel_x = -3;
+	pixel_y = 2
+	},
+/obj/item/taperecorder{
+	pixel_x = 5
 	},
 /turf/open/floor/wood,
 /area/security/detectives_office)
@@ -39084,6 +39085,10 @@
 /obj/item/lighter{
 	pixel_x = -8
 	},
+/obj/machinery/requests_console{
+	department = "Detective's office";
+	pixel_x = 32
+	},
 /turf/open/floor/wood,
 /area/security/detectives_office)
 "bYg" = (
@@ -46694,7 +46699,7 @@
 	volume_rate = 200
 	},
 /turf/open/space,
-/area/space/nearstation)
+/area/ai_monitored/turret_protected/aisat_interior)
 "dKs" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -47373,9 +47378,6 @@
 "eMv" = (
 /obj/effect/turf_decal/box,
 /obj/effect/landmark/start/cyborg,
-/obj/effect/turf_decal/caution{
-	pixel_y = -6
-	},
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "eNc" = (
@@ -58610,6 +58612,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/structure/filingcabinet/security,
 /turf/open/floor/wood,
 /area/security/detectives_office)
 "xjT" = (

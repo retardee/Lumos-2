@@ -335,7 +335,7 @@ distance_multiplier - Can be used to multiply the distance at which the sound is
 			//END OF CIT CHANGES
 			//Sandstorm Sounds
 			if("drawer_open")
-				soundin = pick('modular_sand/sound/misc/drawer_open1.ogg', 'modular_sand/sound/misc/drawer_open2.ogg')
+				soundin = pick('modular_lumos/sound/misc/drawer_open1.ogg', 'modular_lumos/sound/misc/drawer_open2.ogg')
 			if("drawer_close")
-				soundin = pick('modular_sand/sound/misc/drawer_close.ogg')
+				soundin = pick('modular_lumos/sound/misc/drawer_close.ogg')
 	return soundin

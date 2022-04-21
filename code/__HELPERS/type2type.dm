@@ -701,7 +701,7 @@
 			return 'modular_citadel/icons/ui/screen_operative.dmi'
 		if('icons/mob/screen_clockwork.dmi')
 			return 'modular_citadel/icons/ui/screen_clockwork.dmi'
-		if('modular_sand/icons/mob/screen_liteweb.dmi')
-			return 'modular_sand/icons/mob/screen_liteweb.dmi'
+		if('modular_lumos/icons/mob/screen_liteweb.dmi')
+			return 'modular_lumos/icons/mob/screen_liteweb.dmi'
 		else
 			return 'modular_citadel/icons/ui/screen_midnight.dmi'

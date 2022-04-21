@@ -126,8 +126,8 @@
 	desc = "A set of jaws of life, compressed through the magic of science. It's fitted with a cutting head."
 	icon_state = "jaws_cutter"
 	item_state = "jawsoflife"
-	lefthand_file = 'modular_sand/icons/mob/inhands/equipment/tools_lefthand.dmi'
-	righthand_file = 'modular_sand/icons/mob/inhands/equipment/tools_righthand.dmi'
+	lefthand_file = 'modular_lumos/icons/mob/inhands/equipment/tools_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/inhands/equipment/tools_righthand.dmi'
 	custom_materials = list(/datum/material/iron=150,/datum/material/silver=50,/datum/material/titanium=25)
 
 	usesound = 'sound/items/jaws_cut.ogg'

@@ -180,7 +180,7 @@
 /obj/item/gun/energy/kinetic_accelerator/emp_act(severity)
 	return
 
-/* moved to modular_sand
+/* moved to modular_lumos
 /obj/item/gun/energy/kinetic_accelerator/proc/reload()
 	cell.give(cell.maxcharge)
 	process_chamber()

@@ -36361,10 +36361,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
-"bRF" = (
-/obj/structure/girder,
-/turf/closed/wall,
-/area/maintenance/department/engine)
 "bRG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -84519,7 +84515,7 @@ bOD
 aht
 bIZ
 bQV
-bRF
+bva
 bDi
 bPC
 bDi

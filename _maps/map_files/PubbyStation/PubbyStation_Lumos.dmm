@@ -48526,6 +48526,10 @@
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet,
 /area/service/lawoffice)
+"gAT" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/security/prison)
 "gBb" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
@@ -57557,6 +57561,13 @@
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"vuW" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/item/stack/sheet/mineral/plasma{
+	amount = 30
+	},
+/turf/open/floor/plating,
+/area/maintenance/department/chapel/monastery)
 "vxp" = (
 /obj/machinery/door/window/eastright{
 	base_state = "left";
@@ -74535,7 +74546,7 @@ cwa
 ckf
 sXW
 cle
-cwA
+vuW
 xgh
 lhV
 aaa
@@ -83131,8 +83142,8 @@ eNz
 eNz
 eNz
 aem
-mJX
-mJX
+gAT
+gAT
 aht
 aht
 cnt

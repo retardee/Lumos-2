@@ -24827,7 +24827,9 @@
 /area/medical/genetics)
 "bov" = (
 /obj/effect/turf_decal/tile/blue/fulltile,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/random{
+	layer = 2.8
+	},
 /turf/open/floor/plasteel/dark,
 /area/medical/genetics)
 "bow" = (
@@ -25212,15 +25214,13 @@
 /turf/open/floor/grass,
 /area/medical/genetics)
 "bpy" = (
-/obj/machinery/clonepod{
-	plane = -2
-	},
 /obj/item/radio/intercom{
 	frequency = 1485;
 	name = "Station Intercom (Medbay)";
 	pixel_x = -30
 	},
 /obj/effect/turf_decal/tile/blue/fulltile,
+/obj/machinery/clonepod,
 /turf/open/floor/plasteel/dark,
 /area/medical/genetics)
 "bpz" = (
@@ -57993,6 +57993,13 @@
 	},
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
+"wqP" = (
+/obj/effect/turf_decal/trimline/purple/filled/line{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/dark,
+/area/science/explab)
 "wrU" = (
 /obj/machinery/photocopier,
 /obj/machinery/firealarm{
@@ -99147,7 +99154,7 @@ wBb
 bvS
 bwa
 bza
-bFf
+wqP
 bFf
 bBJ
 bDT

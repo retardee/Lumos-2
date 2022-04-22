@@ -6,15 +6,6 @@
 	design_ids = list("bluespacespray")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 750)
 
-/datum/techweb_node/syndicate_basic/cool
-	id = "syndicate_cool"
-	display_name = "A Single Illegal Weapon"
-	description = "Shoot with style! Cannot be supressed!"
-	prereq_ids = list("syndicate_basic")
-	design_ids = list("luger")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
-	hidden = FALSE
-
 /datum/techweb_node/adv_bluetravel
 	id = "advanced_bluetravel"
 	display_name = "Advanced Bluespace Travel"

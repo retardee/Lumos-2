@@ -1319,11 +1319,6 @@
 "aEy" = (
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main)
-"aEE" = (
-/obj/structure/lattice,
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/space/nearstation)
 "aEF" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -104428,7 +104423,7 @@ buX
 ito
 ito
 ito
-aEE
+dmV
 ito
 dmV
 ito

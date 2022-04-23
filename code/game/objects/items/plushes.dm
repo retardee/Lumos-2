@@ -608,12 +608,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	squeak_override = list('sound/weapons/slash.ogg' = 1)
 
 /obj/item/toy/plush/lizardplushie/kobold
-	name = "kobold plushie"
-	desc = "An adorable stuffed toy that resembles a kobold."
-	icon_state = "kobold"
-	item_state = "kobold"
-
-/obj/item/toy/plush/lizardplushie/kobold
 	name = "spacelizard plushie"
 	desc = "An adorable stuffed toy that resembles a lizard in a suit."
 	icon_state = "plushie_spacelizard"
@@ -714,29 +708,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	item_state = "dr_scanny"
 	attack_verb = list("scanned", "beeped", "stared")
 
-/obj/item/toy/plush/borgplushie
-	name = "K9 plushie"
-	desc = "An adorable stuffed toy of a robot."
-	icon_state = "securityk9"
-	item_state = "securityk9"
-	attack_verb = list("beeped", "booped", "pinged")
-	squeak_override = list('sound/machines/beep.ogg' = 1)
-
-/obj/item/toy/plush/borgplushie/medihound
-	name = "medihound plushie"
-	icon_state = "medihound"
-	item_state = "medihound"
-
-/obj/item/toy/plush/borgplushie/scrubpuppy
-	name = "scrubpuppy plushie"
-	icon_state = "scrubpuppy"
-	item_state = "scrubpuppy"
-
-/obj/item/toy/plush/borgplushie/pupdozer
-	name = "pupdozer plushie"
-	icon_state = "pupdozer"
-	item_state = "pupdozer"
-
 /obj/item/toy/plush/aiplush
 	name = "AI plushie"
 	desc = "A little stuffed toy AI core... it appears to be malfunctioning."
@@ -805,14 +776,6 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	item_state = "bird"
 	attack_verb = list("peeped", "beeped", "poofed")
 	squeak_override = list('modular_citadel/sound/voice/peep.ogg' = 1)
-	can_random_spawn = FALSE
-
-/obj/item/toy/plush/sergal
-	name = "sergal plushie"
-	desc = "An adorable stuffed plushie that resembles a sagaru."
-	icon_state = "sergal"
-	item_state = "sergal"
-	squeak_override = list('modular_citadel/sound/voice/merp.ogg' = 1)
 	can_random_spawn = FALSE
 
 /obj/item/toy/plush/catgirl

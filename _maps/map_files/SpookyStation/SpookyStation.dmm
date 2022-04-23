@@ -691,8 +691,7 @@
 /area/eventmap/inside)
 "acp" = (
 /mob/living/simple_animal/jacq{
-	active = 0;
-	spawn_cars = 0
+	active = 0
 	},
 /turf/open/floor/carpet,
 /area/eventmap/inside)
@@ -1792,7 +1791,6 @@
 /area/eventmap/inside)
 "afz" = (
 /obj/structure/chair/wood,
-/obj/item/toy/plush/borgplushie/medihound,
 /obj/item/clothing/glasses/hud/health/sunglasses{
 	pixel_x = -4;
 	pixel_y = 4
@@ -3026,13 +3024,6 @@
 /obj/item/storage/box/beakers,
 /obj/item/storage/box/beakers,
 /obj/item/storage/box/beakers/bluespace,
-/turf/open/floor/wood,
-/area/eventmap/inside)
-"ajd" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/obj/item/toy/plush/catgirl/fermis,
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "aje" = (
@@ -14968,7 +14959,6 @@
 /obj/effect/decal/remains/human,
 /obj/effect/rune/apocalypse,
 /obj/effect/decal/cleanable/blood/splatter,
-/obj/item/toy/plush/catgirl/fermis,
 /turf/open/floor/wood,
 /area/eventmap/inside)
 "aRD" = (
@@ -47457,7 +47447,7 @@ aOE
 aFF
 aOE
 aiG
-ajd
+axx
 aOE
 akt
 aqr

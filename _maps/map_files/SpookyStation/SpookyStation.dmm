@@ -7863,7 +7863,6 @@
 /area/eventmap/inside)
 "awN" = (
 /obj/structure/table/wood/fancy/blackred,
-/obj/item/clothing/neck/devilwings,
 /turf/open/indestructible/spooknecropolis,
 /area/eventmap/inside)
 "awO" = (
@@ -9852,7 +9851,6 @@
 	dir = 4
 	},
 /obj/structure/closet/crate,
-/obj/item/clothing/neck/devilwings,
 /obj/item/clothing/gloves/bracer,
 /obj/item/clothing/accessory/skullcodpiece,
 /turf/open/floor/wood,

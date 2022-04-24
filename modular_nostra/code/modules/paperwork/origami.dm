@@ -99,11 +99,6 @@
 	desc = "Paper folded to look like a frog."
 	icon_state = "paperfrog"
 
-/obj/item/origami/papersyndicate
-	name = "paper S"
-	desc = "Paper folded into the letter S. Could this be the work of a syndicate agent?"
-	icon_state = "papersyndicate"
-
 /obj/item/paper/examine(mob/user)
 	. = ..()
 	. += "<span class='notice'>Alt-click [src] to fold it into origami.</span>"
@@ -118,12 +113,6 @@
 		"Paper frog" = image(icon = 'modular_nostra/icons/obj/bureaucracy.dmi', icon_state = "paperfrog"),
 		"Paper boat" = image(icon = 'modular_nostra/icons/obj/bureaucracy.dmi', icon_state = "paperboat")
 	)
-
-	var/datum/action/innate/origami/origami_action = locate() in user.actions
-	if(origami_action)
-		//Origami Master
-		radial_list["Syndicate paper plane"] = image(icon = 'modular_nostra/icons/obj/bureaucracy.dmi', icon_state = "paperplanesyndicate")
-		radial_list["Paper S"] = image(icon = 'modular_nostra/icons/obj/bureaucracy.dmi', icon_state = "papersyndicate")
 
 	var/origami_selected = show_radial_menu(user, src, radial_list, require_near = TRUE, tooltips = TRUE)
 	if(!origami_selected || !user || user.stat)
@@ -144,5 +133,3 @@
 		if("Paper crane") return /obj/item/origami/papercrane
 		if("Paper frog") return /obj/item/origami/paperfrog
 		if("Paper boat") return /obj/item/origami/paperboat
-		if("Syndicate paper plane") return /obj/item/paperplane/origami
-		if("Paper S") return /obj/item/origami/papersyndicate

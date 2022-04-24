@@ -54663,9 +54663,6 @@
 /turf/open/floor/plating,
 /area/medical/storage)
 "oCu" = (
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 8
-	},
 /obj/machinery/shower{
 	dir = 4;
 	pixel_y = -7

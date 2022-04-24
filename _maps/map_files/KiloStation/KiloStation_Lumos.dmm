@@ -322,7 +322,7 @@
 "aaK" = (
 /obj/structure/disposalpipe/segment,
 /obj/item/kirbyplants/random,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "aaM" = (
 /obj/structure/lattice/catwalk,
@@ -9153,7 +9153,7 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "auR" = (
 /obj/structure/flora/junglebush,
@@ -24747,7 +24747,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bdg" = (
 /obj/effect/turf_decal/tile/brown,
@@ -30029,7 +30029,13 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue/half{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bnC" = (
 /obj/machinery/biogenerator,
@@ -30064,7 +30070,13 @@
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bnG" = (
 /obj/structure/cable{
@@ -32214,7 +32226,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bsq" = (
 /obj/structure/table/wood,
@@ -32920,7 +32932,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "btS" = (
 /obj/structure/disposalpipe/segment{
@@ -33474,7 +33486,7 @@
 /area/hallway/primary/fore)
 "bvj" = (
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bvl" = (
 /obj/structure/bookcase/random/adult,
@@ -33570,7 +33582,7 @@
 /obj/structure/sign/warning/nosmoking{
 	pixel_x = 32
 	},
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bvw" = (
 /obj/machinery/computer/holodeck{
@@ -34653,7 +34665,9 @@
 /turf/closed/wall/r_wall,
 /area/ai_monitored/turret_protected/ai_upload)
 "byk" = (
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "byl" = (
 /obj/machinery/atmospherics/components/binary/pump{
@@ -38105,7 +38119,9 @@
 /area/hallway/primary/port)
 "bFv" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "bFw" = (
 /obj/structure/extinguisher_cabinet{
@@ -63393,7 +63409,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
 	},
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue/half,
+/obj/effect/turf_decal/tile/blue/half,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "iBL" = (
 /obj/machinery/camera{
@@ -64517,7 +64535,13 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/turf/open/floor/carpet/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "mSP" = (
 /obj/structure/disposalpipe/segment,
@@ -64972,6 +64996,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"oFa" = (
+/obj/effect/turf_decal/tile/blue/fullcorner,
+/obj/effect/turf_decal/tile/blue/fullcorner,
+/turf/open/floor/plasteel/dark,
+/area/security/courtroom)
 "oGx" = (
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
@@ -65865,7 +65894,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/turf/open/floor/carpet/blue,
+/turf/open/floor/plasteel/dark,
 /area/security/courtroom)
 "sap" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
@@ -95565,9 +95594,9 @@ arK
 avv
 apP
 bvv
+acN
 byk
-byk
-byk
+oFa
 arn
 apM
 bpT
@@ -97876,7 +97905,7 @@ dba
 blT
 bnI
 aRM
-tLy
+voT
 avQ
 asX
 bHU

@@ -593,12 +593,6 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fountain/captain,
-/obj/item/radio/intercom{
-	dir = 8;
-	freerange = 1;
-	name = "Station Intercom (Command)";
-	pixel_y = -28
-	},
 /turf/open/floor/carpet,
 /area/command/heads_quarters/captain)
 "abr" = (
@@ -3438,13 +3432,20 @@
 /obj/item/book{
 	desc = "An undeniably handy book.";
 	icon_state = "bookknock";
-	name = "A Simpleton's Guide to Safe-cracking with Stethoscopes"
+	name = "A Simpleton's Guide to Safe-cracking with Stethoscopes";
+	pixel_x = -4
 	},
+/obj/item/ammo_box/magazine/m50{
+	pixel_x = 6
+	},
+/obj/item/ammo_box/magazine/m50{
+	pixel_x = 6
+	},
+/obj/item/stack/spacecash/c1000,
 /obj/item/stack/spacecash/c500{
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/stack/spacecash/c1000,
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold,
 /turf/open/floor/circuit/green/anim,
 /area/ai_monitored/command/nuke_storage)
@@ -7577,11 +7578,17 @@
 	name = "Captain RC";
 	pixel_y = -30
 	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/button/door{
+	id = "captain_escape";
+	name = ""Oh shit!" Button";
+	pixel_x = -24;
+	pixel_y = 6
+	},
 /obj/machinery/keycard_auth{
 	pixel_x = -24;
 	pixel_y = -8
 	},
-/obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/captain)
 "arv" = (
@@ -7681,9 +7688,6 @@
 "arF" = (
 /obj/machinery/computer/communications{
 	dir = 1
-	},
-/obj/structure/sign/plaques/golden/captain{
-	pixel_y = -32
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
@@ -7872,9 +7876,6 @@
 	},
 /obj/machinery/light{
 	dir = 4
-	},
-/obj/item/storage/secure/safe{
-	pixel_x = 34
 	},
 /obj/item/storage/photo_album/Captain,
 /obj/item/camera,
@@ -9541,7 +9542,6 @@
 /turf/open/floor/plasteel/chapel_floor,
 /area/service/chapel/office)
 "avL" = (
-/obj/effect/turf_decal/caution,
 /obj/machinery/airalarm{
 	dir = 1;
 	pixel_y = -24
@@ -10005,6 +10005,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -10066,6 +10067,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/effect/turf_decal/stripes/line,
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -10077,6 +10079,9 @@
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
 	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
@@ -11124,6 +11129,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -11680,6 +11688,9 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -11693,6 +11704,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -11705,6 +11719,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
 	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
@@ -13131,7 +13148,6 @@
 	id = "transittube_ai";
 	name = "Transit Tube Lockdown Toggle";
 	pixel_x = -24;
-	pixel_y = -8;
 	req_access_txt = "19"
 	},
 /obj/machinery/camera{
@@ -14726,7 +14742,7 @@
 /area/maintenance/fore)
 "aGP" = (
 /obj/structure/sign/warning/securearea,
-/turf/closed/wall,
+/turf/closed/wall/r_wall,
 /area/hallway/primary/fore)
 "aGQ" = (
 /obj/structure/table,
@@ -15475,7 +15491,6 @@
 /obj/machinery/button/door{
 	id = "transittube_ai";
 	name = "Transit Tube Lockdown Toggle";
-	pixel_x = 8;
 	pixel_y = 24;
 	req_access_txt = "19"
 	},
@@ -17426,11 +17441,11 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 8
-	},
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
@@ -17446,10 +17461,10 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/yellow/half{
+/obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -17490,11 +17505,11 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/obj/effect/turf_decal/stripes/corner{
-	dir = 4
-	},
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
@@ -26568,7 +26583,6 @@
 	pixel_x = 5;
 	pixel_y = 5
 	},
-/obj/item/toy/plush/catgirl/fermis,
 /turf/open/floor/plasteel/dark,
 /area/maintenance/port)
 "bgI" = (
@@ -29292,9 +29306,6 @@
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
 "bmh" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
@@ -29305,9 +29316,6 @@
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
 "bmi" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -30204,9 +30212,6 @@
 /area/service/hydroponics)
 "bnU" = (
 /obj/effect/landmark/start/botanist,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/green/fullcorner,
 /obj/effect/turf_decal/tile/blue,
@@ -31541,9 +31546,6 @@
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
 "bqI" = (
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
@@ -31553,9 +31555,6 @@
 /area/service/hydroponics)
 "bqJ" = (
 /obj/machinery/door/firedoor,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/door/airlock/medical/glass{
 	name = "Hydroponics";
 	req_access_txt = "35"
@@ -31586,9 +31585,6 @@
 "bqM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
 	},
 /obj/effect/turf_decal/tile/green/fulltile,
 /obj/effect/turf_decal/tile/blue/checker,
@@ -31645,9 +31641,6 @@
 /turf/open/floor/plasteel/dark,
 /area/engineering/atmos)
 "bqS" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -31666,9 +31659,6 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -32066,6 +32056,15 @@
 	pixel_x = -5;
 	pixel_y = 7
 	},
+/obj/item/radio/intercom{
+	dir = 8;
+	freerange = 1;
+	name = "Station Intercom (Command)";
+	pixel_y = -28
+	},
+/obj/item/storage/secure/safe{
+	pixel_x = 34
+	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/captain)
 "brV" = (
@@ -32458,9 +32457,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/service/library)
 "bsR" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/green/fulltile,
 /obj/effect/turf_decal/tile/blue/checker,
@@ -33215,9 +33211,6 @@
 /area/service/library)
 "buD" = (
 /obj/effect/landmark/start/botanist,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/green/fulltile,
 /obj/effect/turf_decal/tile/blue/checker,
@@ -33820,8 +33813,8 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
 "bwd" = (
-/obj/structure/noticeboard{
-	pixel_y = 30
+/obj/structure/sign/plaques/golden/captain{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
@@ -34063,9 +34056,6 @@
 /area/service/chapel/main)
 "bwO" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/turf_decal/tile/green/fullcorner{
 	dir = 8
 	},
@@ -34851,15 +34841,15 @@
 /turf/open/floor/circuit/green/anim,
 /area/ai_monitored/turret_protected/ai_upload)
 "byC" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "transittube_ai";
-	name = "Transit Tube Blast Door"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/effect/turf_decal/tile/blue/fulltile,
 /obj/effect/turf_decal/tile/blue/fulltile,
+/obj/machinery/door/poddoor{
+	id = "transittube_ai";
+	name = "Transit Tube Blast Door"
+	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/fore)
 "byD" = (
@@ -34904,14 +34894,14 @@
 "byG" = (
 /obj/effect/landmark/event_spawn,
 /obj/machinery/holopad,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
@@ -35704,9 +35694,6 @@
 /area/maintenance/port)
 "bAl" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /obj/effect/turf_decal/tile/green/half{
 	dir = 4
 	},
@@ -37572,12 +37559,6 @@
 /area/security/courtroom)
 "bEe" = (
 /obj/structure/bed/dogbed/renault,
-/obj/machinery/button/door{
-	id = "captain_escape";
-	name = ""Oh shit!" Button";
-	pixel_x = 6;
-	pixel_y = -24
-	},
 /mob/living/simple_animal/pet/fox/Renault,
 /turf/open/floor/wood,
 /area/command/heads_quarters/captain)
@@ -48453,7 +48434,7 @@
 /area/tcommsat/server)
 "cdq" = (
 /obj/machinery/telecomms/hub/preset,
-/turf/open/floor/circuit/green/telecomms/mainframe,
+/turf/open/floor/circuit/green/anim,
 /area/tcommsat/server)
 "cds" = (
 /obj/structure/table/reinforced,
@@ -48636,7 +48617,7 @@
 /area/tcommsat/server)
 "cdL" = (
 /obj/machinery/ntnet_relay,
-/turf/open/floor/circuit/green/telecomms/mainframe,
+/turf/open/floor/circuit/green/anim,
 /area/tcommsat/server)
 "cdM" = (
 /obj/machinery/telecomms/server/presets/service,
@@ -63658,6 +63639,9 @@
 	icon_state = "2-8"
 	},
 /obj/effect/turf_decal/stripes/corner,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
 /turf/open/floor/engine{
 	initial_gas_mix = "n2=100;TEMP=80";
 	name = "mainframe floor"
@@ -96326,7 +96310,7 @@ aAb
 aAH
 aBX
 aDv
-ago
+aiA
 aGP
 aIB
 aba

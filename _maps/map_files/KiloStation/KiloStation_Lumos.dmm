@@ -13223,10 +13223,6 @@
 	},
 /area/engineering/atmos)
 "aDA" = (
-/obj/machinery/atmospherics/miner/nitrogen{
-	max_ext_kpa = 2500
-	},
-/obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/n2{
 	initial_gas_mix = "n2=1000;TEMP=293.15"
@@ -13241,10 +13237,6 @@
 	},
 /area/engineering/atmos)
 "aDD" = (
-/obj/machinery/atmospherics/miner/oxygen{
-	max_ext_kpa = 2500
-	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/o2{
 	initial_gas_mix = "o2=1000;TEMP=293.15"
@@ -13252,11 +13244,13 @@
 /area/engineering/atmos)
 "aDE" = (
 /obj/machinery/camera{
-	c_tag = "Atmospherics Tank - Air";
+	c_tag = "Atmospherics Tank - N2";
 	name = "atmospherics camera";
 	network = list("ss13","engine")
 	},
-/turf/open/floor/engine/air,
+/turf/open/floor/engine/n2{
+	initial_gas_mix = "n2=1000;TEMP=293.15"
+	},
 /area/engineering/atmos)
 "aDF" = (
 /obj/structure/table,
@@ -14103,30 +14097,18 @@
 /turf/open/floor/plasteel/dark,
 /area/security/office)
 "aFm" = (
-/obj/machinery/atmospherics/miner/carbon_dioxide{
-	max_ext_kpa = 2500
-	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/co2{
 	initial_gas_mix = "co2=1000;TEMP=293.15"
 	},
 /area/engineering/atmos)
 "aFn" = (
-/obj/machinery/atmospherics/miner/toxins{
-	max_ext_kpa = 2500
-	},
-/obj/machinery/portable_atmospherics/canister/toxins,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/plasma{
 	initial_gas_mix = "plasma=1000;TEMP=293.15"
 	},
 /area/engineering/atmos)
 "aFo" = (
-/obj/machinery/atmospherics/miner/n2o{
-	max_ext_kpa = 2500
-	},
-/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/n2o{
 	initial_gas_mix = "n2o=1000;TEMP=293.15"
@@ -14455,10 +14437,8 @@
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
 "aGk" = (
-/obj/machinery/camera{
-	c_tag = "Atmospherics Tank - N2";
-	name = "atmospherics camera";
-	network = list("ss13","engine")
+/obj/machinery/atmospherics/miner/nitrogen{
+	max_ext_kpa = 2500
 	},
 /turf/open/floor/engine/n2{
 	initial_gas_mix = "n2=1000;TEMP=293.15"
@@ -15181,6 +15161,14 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"aHQ" = (
+/obj/machinery/atmospherics/miner/carbon_dioxide{
+	max_ext_kpa = 2500
+	},
+/turf/open/floor/engine/co2{
+	initial_gas_mix = "co2=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "aHR" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -18835,6 +18823,12 @@
 	},
 /turf/open/floor/plasteel/showroomfloor,
 /area/medical/storage)
+"aQw" = (
+/obj/effect/turf_decal/vg_decals/atmos/plasma,
+/turf/open/floor/engine/plasma{
+	initial_gas_mix = "plasma=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "aQx" = (
 /obj/machinery/camera{
 	c_tag = "Atrium Vendors";
@@ -21446,12 +21440,16 @@
 /area/medical/virology)
 "aVF" = (
 /obj/effect/landmark/xeno_spawn,
+/obj/effect/turf_decal/vg_decals/atmos/oxygen,
 /turf/open/floor/engine/o2{
 	initial_gas_mix = "o2=1000;TEMP=293.15"
 	},
 /area/engineering/atmos)
 "aVG" = (
 /obj/effect/landmark/xeno_spawn,
+/obj/machinery/atmospherics/miner/n2o{
+	max_ext_kpa = 2500
+	},
 /turf/open/floor/engine/n2o{
 	initial_gas_mix = "n2o=1000;TEMP=293.15"
 	},
@@ -39313,7 +39311,6 @@
 /area/security/office)
 "bIw" = (
 /obj/machinery/light/floor,
-/obj/machinery/portable_atmospherics/canister,
 /turf/open/floor/engine/vacuum,
 /area/engineering/atmos)
 "bIx" = (
@@ -39535,10 +39532,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "bIU" = (
-/obj/machinery/camera{
-	c_tag = "Atmospherics Tank - O2";
-	name = "atmospherics camera";
-	network = list("ss13","engine")
+/obj/machinery/atmospherics/miner/oxygen{
+	max_ext_kpa = 2500
 	},
 /turf/open/floor/engine/o2{
 	initial_gas_mix = "o2=1000;TEMP=293.15"
@@ -42187,9 +42182,6 @@
 "bOy" = (
 /obj/effect/landmark/event_spawn,
 /obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
 /turf/open/floor/plasteel,
 /area/service/janitor)
 "bOz" = (
@@ -44980,7 +44972,6 @@
 /turf/open/floor/plasteel/dark,
 /area/security/processing)
 "bUQ" = (
-/obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/light/floor,
 /turf/open/floor/engine/air,
 /area/engineering/atmos)
@@ -47504,7 +47495,9 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/purple/checker,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/service/janitor)
 "caI" = (
@@ -53702,7 +53695,6 @@
 /obj/machinery/button/door{
 	id = "atmosventco2";
 	name = "Emergency CO2 Vent Toggle";
-	pixel_x = 6;
 	pixel_y = -24
 	},
 /obj/machinery/light,
@@ -55790,7 +55782,6 @@
 /obj/machinery/button/door{
 	id = "atmosventn2o";
 	name = "Emergency N2O Vent Toggle";
-	pixel_x = 6;
 	pixel_y = -24
 	},
 /obj/machinery/light,
@@ -59741,6 +59732,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
+"cHi" = (
+/obj/effect/turf_decal/vg_decals/atmos/air,
+/turf/open/floor/engine/air,
+/area/engineering/atmos)
 "cHj" = (
 /obj/effect/turf_decal/tile/red/fullcorner,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -62092,6 +62087,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"dWN" = (
+/obj/effect/turf_decal/vg_decals/atmos/carbon_dioxide,
+/turf/open/floor/engine/co2{
+	initial_gas_mix = "co2=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "dXi" = (
 /obj/structure/sign/poster/official/random{
 	pixel_y = -32
@@ -62606,6 +62607,14 @@
 	},
 /turf/open/floor/plating,
 /area/security/prison)
+"fDs" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics Tank - Air";
+	name = "atmospherics camera";
+	network = list("ss13","engine")
+	},
+/turf/open/floor/engine/air,
+/area/engineering/atmos)
 "fFr" = (
 /obj/structure/sign/warning/docking{
 	pixel_y = -32
@@ -62776,6 +62785,12 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel,
+/area/engineering/atmos)
+"gpd" = (
+/obj/effect/turf_decal/vg_decals/atmos/nitrous_oxide,
+/turf/open/floor/engine/n2o{
+	initial_gas_mix = "n2o=1000;TEMP=293.15"
+	},
 /area/engineering/atmos)
 "gsz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
@@ -63434,6 +63449,10 @@
 /obj/structure/sign/warning/electricshock,
 /turf/closed/wall/r_wall,
 /area/command/heads_quarters/hos)
+"iIP" = (
+/obj/effect/turf_decal/vg_decals/atmos/mix,
+/turf/open/floor/engine/vacuum,
+/area/engineering/atmos)
 "iLn" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
@@ -64008,6 +64027,12 @@
 	},
 /turf/open/floor/circuit/green/anim,
 /area/engineering/supermatter)
+"kFA" = (
+/obj/effect/turf_decal/vg_decals/atmos/nitrogen,
+/turf/open/floor/engine/n2{
+	initial_gas_mix = "n2=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "kIJ" = (
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
@@ -66359,6 +66384,16 @@
 /obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
+"tMy" = (
+/obj/machinery/camera{
+	c_tag = "Atmospherics Tank - O2";
+	name = "atmospherics camera";
+	network = list("ss13","engine")
+	},
+/turf/open/floor/engine/o2{
+	initial_gas_mix = "o2=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "tOS" = (
 /obj/machinery/power/terminal{
 	dir = 4
@@ -66592,7 +66627,6 @@
 /obj/machinery/button/door{
 	id = "atmosventplasma";
 	name = "Emergency Plasma Vent Toggle";
-	pixel_x = 6;
 	pixel_y = -24
 	},
 /obj/machinery/camera{
@@ -66820,6 +66854,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/command/bridge)
+"vub" = (
+/obj/machinery/atmospherics/miner/toxins{
+	max_ext_kpa = 2500
+	},
+/turf/open/floor/engine/plasma{
+	initial_gas_mix = "plasma=1000;TEMP=293.15"
+	},
+/area/engineering/atmos)
 "vuZ" = (
 /obj/machinery/power/emitter/anchored{
 	dir = 4;
@@ -93039,15 +93081,15 @@ bFa
 aFM
 aGk
 aDz
-aDz
+kFA
 aFM
 bIU
 aDC
 aVF
 aFM
-aDE
 aMY
 aMY
+cHi
 aFM
 ckk
 acm
@@ -93294,15 +93336,15 @@ bFa
 uaG
 bFa
 aFM
-aDz
+aDE
 aDA
 aDz
 aFM
-aDC
+tMy
 aDD
 aDC
 aFM
-aMY
+fDs
 bUQ
 aMY
 aFM
@@ -95882,7 +95924,7 @@ ckE
 cBz
 aHd
 aMZ
-aFc
+aHQ
 aFM
 acm
 aaa
@@ -96396,7 +96438,7 @@ clu
 cBB
 aHf
 aFc
-aFc
+dWN
 aFM
 acm
 aaa
@@ -96910,7 +96952,7 @@ ckE
 cBz
 aHg
 aNa
-aFd
+vub
 aFM
 acm
 aaa
@@ -97424,7 +97466,7 @@ clu
 cBB
 aHi
 aFd
-aFd
+aQw
 aFM
 acm
 aaa
@@ -98452,7 +98494,7 @@ clu
 cBB
 aHl
 aFe
-aFe
+gpd
 aFM
 acm
 aaa
@@ -99480,7 +99522,7 @@ clw
 cBC
 aHo
 aFf
-aFf
+iIP
 aFM
 aeu
 aeu

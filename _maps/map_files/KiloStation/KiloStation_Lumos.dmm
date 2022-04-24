@@ -62636,6 +62636,19 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"fNA" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/lattice/catwalk,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating/airless,
+/area/solars/starboard/aft)
 "fPt" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/emergency,
@@ -109547,7 +109560,7 @@ ctG
 ctG
 ctG
 ctQ
-cCl
+fNA
 cuo
 cuo
 cuo

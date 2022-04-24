@@ -637,8 +637,7 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/chemistry)
 "cY" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/layer3{
-	id = "syndie_lavaland_o2_in";
-	piping_layer = 3
+	id = "syndie_lavaland_o2_in"
 	},
 /turf/open/floor/engine/o2,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
@@ -2918,26 +2917,6 @@
 /obj/structure/closet/crate{
 	name = "Forbidden Crate"
 	},
-/obj/item/autosurgeon/penis,
-/obj/item/autosurgeon/penis,
-/obj/item/autosurgeon/penis,
-/obj/item/autosurgeon/penis,
-/obj/item/autosurgeon/breasts,
-/obj/item/autosurgeon/breasts,
-/obj/item/autosurgeon/breasts,
-/obj/item/autosurgeon/breasts,
-/obj/item/autosurgeon/testicles,
-/obj/item/autosurgeon/testicles,
-/obj/item/autosurgeon/testicles,
-/obj/item/autosurgeon/testicles,
-/obj/item/autosurgeon/vagina,
-/obj/item/autosurgeon/vagina,
-/obj/item/autosurgeon/vagina,
-/obj/item/autosurgeon/vagina,
-/obj/item/autosurgeon/womb,
-/obj/item/autosurgeon/womb,
-/obj/item/autosurgeon/womb,
-/obj/item/autosurgeon/womb,
 /obj/item/storage/pill_bottle/penis_enlargement,
 /obj/item/storage/pill_bottle/penis_enlargement,
 /obj/item/storage/pill_bottle/breast_enlargement,
@@ -4475,8 +4454,7 @@
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
 "ld" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/layer3{
-	id = "syndie_lavaland_n2_in";
-	piping_layer = 3
+	id = "syndie_lavaland_n2_in"
 	},
 /turf/open/floor/engine/n2,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)
@@ -7468,8 +7446,7 @@
 "YK" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/layer3{
 	dir = 8;
-	id = "syndie_lavaland_tox_in";
-	piping_layer = 3
+	id = "syndie_lavaland_tox_in"
 	},
 /turf/open/floor/engine/plasma,
 /area/ruin/lavaland/unpowered/syndicate_lava_base/engineering)

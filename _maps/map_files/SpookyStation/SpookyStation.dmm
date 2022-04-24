@@ -10857,10 +10857,6 @@
 /obj/structure/closet/chefcloset,
 /turf/open/floor/wood,
 /area/eventmap/inside)
-"aFq" = (
-/obj/item/autosurgeon/penis,
-/turf/open/floor/spooktime/dirtpatch,
-/area/eventmap/mountain)
 "aFr" = (
 /obj/machinery/rnd/production/circuit_imprinter,
 /turf/open/floor/circuit/off,
@@ -18201,7 +18197,7 @@ aWA
 ags
 ags
 ags
-aFq
+ags
 ags
 aac
 aac

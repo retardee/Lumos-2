@@ -12,7 +12,7 @@
 	exclaim_verb = "barks"
 	key = "z"
 	space_chance = 40
-	syllables = list("grr", "gah", "woof", "arf", "arra", "rah", "wor", "sarg")
+	syllables = list("grr", "gah", "woof", "arf", "arra", "rah", "wor", "sarg", "merp")
 	icon_state = "cheese"
 	flags = TONGUELESS_SPEECH
 	restricted = FALSE

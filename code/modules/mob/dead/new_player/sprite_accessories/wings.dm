@@ -465,14 +465,6 @@
 	name = "Witch Wing"
 	icon_state = "witchwing"
 
-//DONATOR WINGS
-
 /datum/sprite_accessory/deco_wings/eyestalks
 	name = "gazer eyestalks"
 	icon_state = "eyestalks"
-	//ckeys_allowed = list("liquidfirefly","seiga") //At request.
-
-/datum/sprite_accessory/insect_wings/eyestalks
-	name = "gazer eyestalks"
-	icon_state = "eyestalks"
-	//ckeys_allowed = list("liquidfirefly","seiga") //At request.

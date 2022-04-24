@@ -6,7 +6,7 @@
 //			1) Tennis balls, lines 39 - 99
 //			2) Chew bones, lines 101 - 138
 //			3) Frisbee, lines 140 - 166
-*/		
+*/
 
 /obj/item/toy/fluff
 	name = "Fluff Item"
@@ -74,11 +74,6 @@
 	name = "tricolor-polychromic tennis sphere"
 	desc = "A tricolor-polychromic tennis ball. This one seems to emit a squeak when squeezed."
 	actions_types = list(/datum/action/item_action/squeeze)
-
-/obj/item/toy/fluff/tennis_poly/tri/squeak/izzy 	//izzyinbox's donator item
-	name = "Katlin's Ball"
-	desc = "A tennis ball that's seen a good bit of love, being covered in a few black and white hairs and slobber."
-	poly_colors = list("#8FED56", "#51cfde", "#FFFFFF")
 
 /obj/item/toy/fluff/tennis_poly/tri/squeak/rainbow
 	name = "pseudo-euclidean interdimensional tennis sphere"

@@ -424,9 +424,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
-	dir = 4
-	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "abu" = (
@@ -439,8 +436,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	dir = 10
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
@@ -455,8 +452,8 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
-	dir = 1
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
@@ -689,11 +686,11 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acc" = (
 /obj/structure/bed,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acd" = (
@@ -861,19 +858,26 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acA" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acB" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acE" = (
@@ -906,7 +910,6 @@
 /obj/machinery/door/poddoor/preopen{
 	id = "executionfireblast"
 	},
-/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/westright{
 	dir = 1;
@@ -923,6 +926,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "acJ" = (
@@ -1032,7 +1036,6 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating,
 /area/security/execution/transfer)
 "ada" = (
@@ -1349,7 +1352,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "adG" = (
@@ -1566,9 +1568,6 @@
 "aeb" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
-	dir = 4
-	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "aec" = (
@@ -1603,9 +1602,6 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
-	dir = 4
-	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "aef" = (
@@ -1944,6 +1940,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "aeJ" = (
@@ -1956,7 +1955,6 @@
 /turf/open/floor/plating,
 /area/security/execution/transfer)
 "aeK" = (
-/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
@@ -1966,6 +1964,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "aeL" = (
@@ -1973,7 +1972,7 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 5
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
@@ -2300,11 +2299,11 @@
 /obj/machinery/light_switch{
 	pixel_x = 25
 	},
-/obj/machinery/atmospherics/pipe/simple/general/hidden{
-	dir = 9
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
+	dir = 9
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
@@ -16420,9 +16419,10 @@
 /turf/open/floor/plasteel/white/corner,
 /area/hallway/secondary/entry)
 "aRZ" = (
-/turf/open/floor/plasteel/white/corner{
+/obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
+/turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "aSa" = (
 /obj/machinery/light_switch{
@@ -19698,10 +19698,9 @@
 /turf/open/floor/plating,
 /area/service/bar)
 "bbb" = (
-/obj/effect/turf_decal/tile/blue{
+/turf/open/floor/plasteel/white/corner{
 	dir = 1
 	},
-/turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "bbc" = (
 /obj/machinery/door/airlock/maintenance{
@@ -20316,7 +20315,7 @@
 "bcW" = (
 /obj/effect/landmark/event_spawn,
 /obj/item/beacon,
-/obj/machinery/atmospherics/pipe/simple/general/visible{
+/obj/machinery/atmospherics/pipe/simple/general/hidden{
 	dir = 6
 	},
 /turf/open/floor/engine,
@@ -35612,9 +35611,10 @@
 /obj/item/wrench,
 /obj/item/crowbar,
 /obj/machinery/computer/security/telescreen{
+	dir = 1;
 	name = "Test Chamber Monitor";
 	network = list("test");
-	pixel_y = -30
+	pixel_y = -32
 	},
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
@@ -36980,7 +36980,6 @@
 /area/science/misc_lab)
 "bXj" = (
 /obj/structure/table,
-/obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/machinery/button/ignition{
 	id = "testigniter";
 	pixel_x = -6;
@@ -36993,6 +36992,7 @@
 	pixel_y = 2;
 	req_access_txt = "55"
 	},
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
 "bXk" = (
@@ -37429,8 +37429,8 @@
 	id = "testlab";
 	name = "test chamber blast door"
 	},
-/obj/machinery/atmospherics/pipe/simple/general/visible,
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/engine,
 /area/science/misc_lab)
 "bYk" = (
@@ -37679,7 +37679,7 @@
 /turf/closed/wall/r_wall,
 /area/medical/virology)
 "bZc" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/engine,
 /area/science/misc_lab)
 "bZd" = (
@@ -38416,7 +38416,7 @@
 /turf/open/floor/engine,
 /area/science/misc_lab)
 "caY" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/machinery/atmospherics/pipe/simple/general/hidden,
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "caZ" = (
@@ -49047,7 +49047,7 @@
 "fIs" = (
 /obj/structure/grille,
 /obj/structure/lattice,
-/turf/open/floor/plating,
+/turf/open/space/basic,
 /area/space/nearstation)
 "fJQ" = (
 /turf/open/floor/plating,
@@ -51404,10 +51404,6 @@
 "jAg" = (
 /turf/open/floor/engine,
 /area/science/mixing)
-"jAD" = (
-/obj/structure/grille,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "jAN" = (
 /obj/machinery/food_cart,
 /turf/open/floor/plasteel/cafeteria,
@@ -54667,9 +54663,6 @@
 /turf/open/floor/plating,
 /area/medical/storage)
 "oCu" = (
-/obj/effect/turf_decal/tile/blue/half{
-	dir = 8
-	},
 /obj/machinery/shower{
 	dir = 4;
 	pixel_y = -7
@@ -95500,7 +95493,7 @@ aaa
 aaa
 aaa
 aaa
-jAD
+iDo
 aaa
 aaa
 aaa
@@ -97299,7 +97292,7 @@ aaa
 aaa
 aaa
 aaa
-jAD
+iDo
 aaa
 aaa
 aaa
@@ -109535,7 +109528,7 @@ atS
 aoV
 aoV
 aoV
-aaH
+gXs
 aoV
 aoV
 aaf
@@ -109792,7 +109785,7 @@ atS
 aoV
 aoV
 aoV
-aaH
+gXs
 aoV
 aoV
 aoV
@@ -110045,7 +110038,7 @@ aaa
 aaa
 aaa
 aaa
-aaH
+gXs
 aoV
 aoV
 aoV
@@ -111074,14 +111067,14 @@ aaa
 aaa
 aaa
 aaf
-aoV
-aoV
-aoV
 aaf
-aoV
-aoV
-aoV
-aoV
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
+aaf
 aaf
 aaa
 aoV
@@ -111334,7 +111327,7 @@ aoV
 aoV
 aoV
 aoV
-aaf
+aoV
 aoV
 aoV
 aoV

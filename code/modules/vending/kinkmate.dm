@@ -9,14 +9,15 @@
 				/obj/item/clothing/under/costume/maid = 1,
 				/obj/item/clothing/under/rank/civilian/janitor/maid = 1,
 				/obj/item/clothing/gloves/evening = 1,
-				/obj/item/clothing/under/misc/stripper = 1,
+				/obj/item/clothing/under/misc/stripper = 3,
 				/obj/item/clothing/under/misc/stripper/green = 1,
-				/obj/item/clothing/under/dress/corset = 1,
-				/obj/item/clothing/under/misc/gear_harness = 1,
-				/obj/item/clothing/under/misc/poly_bottomless = 1,
-				/obj/item/clothing/under/misc/poly_tanktop = 3,
-				/obj/item/clothing/under/misc/poly_tanktop/female = 3,
-				/obj/item/clothing/under/shorts/polychromic/pantsu = 3,
+				/obj/item/clothing/under/dress/corset = 3,
+				/obj/item/clothing/under/misc/gear_harness = 5,
+				/obj/item/clothing/under/pants/chaps = 1,
+				/obj/item/clothing/under/misc/poly_bottomless = 5,
+				/obj/item/clothing/under/misc/poly_tanktop = 5,
+				/obj/item/clothing/under/misc/poly_tanktop/female = 5,
+				/obj/item/clothing/under/shorts/polychromic/pantsu = 5,
 				/obj/item/clothing/neck/petcollar/choker = 3,
 				/obj/item/clothing/neck/petcollar/leather = 3,
 				/obj/item/clothing/neck/necklace/cowbell = 3,
@@ -44,8 +45,8 @@
 				/obj/item/dildo/flared/huge = 1
 				)
 	premium = list(
-				/obj/item/reagent_containers/glass/bottle/hexacrocin = 5,
-				/obj/item/clothing/under/pants/chaps = 1
+				/obj/item/reagent_containers/glass/bottle/hexacrocin = 3,
+				/obj/item/reagent_containers/glass/bottle/hexacamphor = 3
 				)
 	refill_canister = /obj/item/vending_refill/kink
 	default_price = PRICE_CHEAP

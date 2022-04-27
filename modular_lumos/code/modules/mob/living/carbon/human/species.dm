@@ -14,3 +14,6 @@
 		if(0 to THIRST_LEVEL_PARCHED)
 			H.throw_alert("thirst", /atom/movable/screen/alert/dehydrated)
 */
+
+/datum/species
+	var/reagent_flags = PROCESS_ORGANIC //Used for metabolizing reagents. We're going to assume you're a meatbag unless you say otherwise.

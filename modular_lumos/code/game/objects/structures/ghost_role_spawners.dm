@@ -41,3 +41,9 @@
 		D.Grant(new_spawn)
 		var/datum/action/disguise/disguise_action = new(new_spawn)
 		disguise_action.Grant(new_spawn)
+
+/obj/effect/mob_spawn/human/madxenobiologist/Initialize(mapload)
+	. = ..()
+	var/list/madspecies = list("Felinids", "Lizards", "Slime People", "Mothmen", "Flypeople", "Arachnids")
+	themadspecies = "[pick(madspecies)]"
+	objectives = list("Transform all Nanotrasen employees into [themadspecies], avoid killing at all costs.")

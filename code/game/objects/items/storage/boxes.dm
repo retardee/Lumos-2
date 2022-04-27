@@ -1419,7 +1419,7 @@
 		/obj/item/modular_computer/tablet/preset/advanced=1,\
 		/obj/item/geiger_counter=1,\
 		/obj/item/construction/rcd/combat/admin=1,\
-		/obj/item/pipe_dispenser=1,\
+		/obj/item/pipe_dispenser/bluespace=1,\
 		/obj/item/card/emag=1,\
 		/obj/item/healthanalyzer/advanced=1,\
 		/obj/item/disk/tech_disk/debug=1,\

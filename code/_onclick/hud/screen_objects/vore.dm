@@ -1,6 +1,6 @@
 /atom/movable/screen/voretoggle
 	name = "toggle vore mode"
-	icon = 'modular_citadel/icons/ui/screen_midnight.dmi'
+	icon = 'modular_lumos/icons/ui/screen_midnight.dmi'
 	icon_state = "nom_off"
 
 /atom/movable/screen/voretoggle/Click()

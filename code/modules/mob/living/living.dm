@@ -509,7 +509,7 @@
 
 /mob/proc/get_contents()
 
-/*CIT CHANGE - comments out lay_down proc to be modified in modular_citadel
+/*CIT CHANGE - comments out lay_down proc to be modified in modular_lumos
 /mob/living/proc/lay_down()
 	set name = "Rest"
 	set category = "IC"

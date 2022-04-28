@@ -25,7 +25,7 @@
 /obj/item/gun/ballistic/automatic/pistol/modular
 	name = "modular pistol"
 	desc = "A small, easily concealable 10mm handgun. Has a threaded barrel for suppressors."
-	icon = 'modular_citadel/icons/obj/guns/cit_guns.dmi'
+	icon = 'modular_lumos/icons/obj/guns/cit_guns.dmi'
 	icon_state = "cde"
 	can_unsuppress = TRUE
 	automatic_burst_overlay = FALSE
@@ -128,7 +128,7 @@
 /obj/item/gun/ballistic/automatic/pistol/antitank
 	name = "Anti Tank Pistol"
 	desc = "A massively impractical and silly monstrosity of a pistol that fires .50 calliber rounds. The recoil is likely to dislocate your wrist."
-	icon = 'modular_citadel/icons/obj/guns/cit_guns.dmi'
+	icon = 'modular_lumos/icons/obj/guns/cit_guns.dmi'
 	icon_state = "atp"
 	item_state = "pistol"
 	recoil = 4

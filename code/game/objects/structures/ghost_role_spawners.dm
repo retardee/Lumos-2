@@ -852,7 +852,7 @@
 				"<span class='italics'>You hear prying, followed by the death rattling of bones.</span>")
 			log_game("[key_name(user)] has successfully pried open [src] and disabled a space pirate spawner.")
 			W.play_tool_sound(src)
-			playsound(src.loc, 'modular_citadel/sound/voice/scream_skeleton.ogg', 50, 1, 4, 1.2)
+			playsound(src.loc, 'modular_lumos/sound/voice/scream_skeleton.ogg', 50, 1, 4, 1.2)
 			if(rank == "Captain")
 				new /obj/effect/mob_spawn/human/pirate/corpse/captain(get_turf(src))
 			else

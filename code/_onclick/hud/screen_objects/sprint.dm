@@ -1,9 +1,9 @@
 /atom/movable/screen/mov_intent
-	icon = 'modular_citadel/icons/ui/screen_midnight.dmi'
+	icon = 'modular_lumos/icons/ui/screen_midnight.dmi'
 
 /atom/movable/screen/sprintbutton
 	name = "toggle sprint"
-	icon = 'modular_citadel/icons/ui/screen_midnight.dmi'
+	icon = 'modular_lumos/icons/ui/screen_midnight.dmi'
 	icon_state = "act_sprint"
 	layer = ABOVE_HUD_LAYER - 0.1
 	var/mutable_appearance/flashy

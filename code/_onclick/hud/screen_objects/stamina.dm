@@ -2,7 +2,7 @@
 /datum/hud/var/atom/movable/screen/staminabuffer/staminabuffer
 
 /atom/movable/screen/staminas
-	icon = 'modular_citadel/icons/ui/screen_gen.dmi'
+	icon = 'modular_lumos/icons/ui/screen_gen.dmi'
 	name = "stamina"
 	icon_state = "stamina0"
 	screen_loc = ui_stamina
@@ -41,7 +41,7 @@
 
 //stam buffer
 /atom/movable/screen/staminabuffer
-	icon = 'modular_citadel/icons/ui/screen_gen.dmi'
+	icon = 'modular_lumos/icons/ui/screen_gen.dmi'
 	name = "stamina buffer"
 	icon_state = "stambuffer0"
 	screen_loc = ui_stamina

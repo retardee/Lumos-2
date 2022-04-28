@@ -34,3 +34,7 @@
 	layer -= MOB_LAYER_SHIFT_INCREMENT
 	var/layer_priority = FLOOR((layer - MOB_LAYER) * 100, 1) // Just for text feedback
 	to_chat(src, span_notice("Your layer priority is now [layer_priority]."))
+
+//shades
+/mob/living/canZMove(dir, turf/target)
+	return can_zTravel(target, dir) && (movement_type & FLYING | FLOATING)

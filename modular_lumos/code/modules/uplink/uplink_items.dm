@@ -11,3 +11,7 @@
 	desc = "An additional arm harvested from slaves captured by the Syndicate. Comes with an implanter."
 	item = /obj/item/extra_arm
 	cost = 8
+
+/datum/uplink_item/race_restricted
+	category = "Race-Restricted"
+	surplus = 0

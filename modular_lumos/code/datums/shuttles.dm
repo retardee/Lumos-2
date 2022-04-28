@@ -26,3 +26,7 @@
 /datum/map_template/shuttle/mining/large //port tg mining shuttle
 	suffix = "large"
 	name = "mining shuttle (Large)"
+
+/datum/map_template/shuttle/cargo/elevator
+	suffix = "elevator"
+	name = "Cargo MultiDeck Elevator"

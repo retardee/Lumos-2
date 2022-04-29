@@ -49,4 +49,4 @@
 	if(user.nextsoundemote >= world.time)
 		return
 	user.nextsoundemote = world.time + 7
-	playsound(user, 'modular_citadel/sound/voice/peep.ogg', 50, 1, -1)
+	playsound(user, 'modular_lumos/sound/voice/peep.ogg', 50, 1, -1)

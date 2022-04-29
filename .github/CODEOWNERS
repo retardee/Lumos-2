@@ -5,10 +5,10 @@
 # to the same file or dir, add them to the end under Multiple Owners
 
 #deathride58
-/modular_citadel/ @deathride58
+/modular_lumos/ @deathride58
 
-#LetterJay 
-/modular_citadel/code/modules/client/loadout/__donator.dm @LetterJay 
+#LetterJay
+/modular_lumos/code/modules/client/loadout/__donator.dm @LetterJay
 /SQL/database_changelog.txt @LetterJay
 
 # bobbahbrown

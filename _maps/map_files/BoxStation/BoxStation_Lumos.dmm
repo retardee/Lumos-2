@@ -10398,10 +10398,6 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aBl" = (
-/obj/machinery/computer/cryopod{
-	dir = 8;
-	pixel_x = 26
-	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -41901,7 +41897,9 @@
 	},
 /area/maintenance/aft)
 "clm" = (
-/obj/machinery/meter,
+/obj/machinery/meter{
+	target_layer = 3
+	},
 /obj/machinery/atmospherics/pipe/manifold/general/hidden/layer3{
 	dir = 1
 	},
@@ -41920,9 +41918,11 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "clo" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
+	},
+/obj/machinery/meter{
+	target_layer = 3
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -55710,6 +55710,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"qlk" = (
+/obj/machinery/cryopod,
+/obj/machinery/computer/cryopod{
+	dir = 8;
+	pixel_x = 26
+	},
+/turf/open/floor/circuit/green/anim,
+/area/security/prison)
 "qmg" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/plating,
@@ -85590,7 +85598,7 @@ gXs
 aaa
 aaa
 aai
-jxW
+qlk
 aar
 aat
 aTA

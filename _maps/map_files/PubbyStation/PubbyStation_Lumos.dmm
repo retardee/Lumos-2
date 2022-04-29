@@ -15032,7 +15032,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/crew_quarters/bar)
 "aOy" = (
-/obj/item/beacon,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 4
+	},
 /turf/open/floor/engine,
 /area/science/explab)
 "aOA" = (
@@ -19243,8 +19245,9 @@
 /area/service/hydroponics)
 "aYR" = (
 /obj/machinery/vending/dinnerware,
-/obj/machinery/airalarm/unlocked{
-	pixel_y = 24
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_y = 26
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
@@ -19252,9 +19255,8 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "aYT" = (
-/obj/item/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_y = 26
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_y = 32
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
@@ -19276,9 +19278,6 @@
 	id = "kitchenshutters";
 	name = "kitchen shutters"
 	},
-/obj/machinery/computer/security/telescreen/entertainment{
-	pixel_y = 32
-	},
 /obj/item/reagent_containers/food/condiment/saltshaker{
 	pixel_x = -2;
 	pixel_y = 2
@@ -19295,6 +19294,9 @@
 /area/service/kitchen)
 "aYY" = (
 /obj/item/kirbyplants/random,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
 "aYZ" = (
@@ -21463,12 +21465,6 @@
 /obj/structure/chair/wood/normal{
 	dir = 8
 	},
-/obj/machinery/button/door{
-	id = "barshutters";
-	name = "Bar Lockdown";
-	pixel_y = -28;
-	req_access_txt = "25"
-	},
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
@@ -21480,12 +21476,6 @@
 "beC" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
-	},
-/obj/machinery/button/door{
-	id = "barshutters";
-	name = "Bar Lockdown";
-	pixel_y = -28;
-	req_access_txt = "25"
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
@@ -23501,13 +23491,18 @@
 	c_tag = "Experimentation Lab Chamber";
 	network = list("ss13","rd")
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
 /turf/open/floor/engine,
 /area/science/explab)
 "bkA" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
 	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
 /turf/open/floor/engine,
 /area/science/explab)
 "bkB" = (
@@ -43413,16 +43408,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/service/bar)
-"cpg" = (
-/obj/machinery/button/door{
-	id = "barshutters";
-	name = "Bar Lockdown";
-	pixel_y = 26;
-	req_access_txt = "28"
-	},
-/obj/effect/turf_decal/tile/neutral/fulltile,
-/turf/open/floor/plasteel/dark,
-/area/service/bar)
 "cpi" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -43498,6 +43483,10 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/camera{
+	c_tag = "Kitchen";
+	dir = 4
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "cps" = (
@@ -43517,6 +43506,10 @@
 /area/hallway/primary/central)
 "cpu" = (
 /obj/machinery/deepfryer,
+/obj/machinery/airalarm/unlocked{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "cpv" = (
@@ -43544,10 +43537,6 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "cpx" = (
-/obj/machinery/camera{
-	c_tag = "Kitchen";
-	dir = 1
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -90104,7 +90093,7 @@ cpa
 aWg
 aXc
 aPE
-cpg
+beF
 bah
 beF
 bah
@@ -98597,7 +98586,7 @@ aGP
 aRt
 eaA
 bjw
-bky
+aOy
 blP
 bmV
 bnV
@@ -98856,7 +98845,7 @@ eaA
 bjw
 bkz
 blQ
-aOy
+bky
 bnY
 bpe
 bqp

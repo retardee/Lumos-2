@@ -192,11 +192,11 @@
 	item_state = null
 	force = 14
 	pin = /obj/item/firing_pin/holy
-	icon = 'modular_citadel/icons/obj/guns/VGguns.dmi'
+	icon = 'modular_lumos/icons/obj/guns/VGguns.dmi'
 	ammo_x_offset = 4
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/redtag/hitscan/holy)
-	lefthand_file = 'modular_citadel/icons/mob/citadel/guns_lefthand.dmi'
-	righthand_file = 'modular_citadel/icons/mob/citadel/guns_righthand.dmi'
+	lefthand_file = 'modular_lumos/icons/mob/citadel/guns_lefthand.dmi'
+	righthand_file = 'modular_lumos/icons/mob/citadel/guns_righthand.dmi'
 	var/chaplain_spawnable = TRUE
 	total_mass = TOTAL_MASS_MEDIEVAL_WEAPON
 	throw_speed = 3

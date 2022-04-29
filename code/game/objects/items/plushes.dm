@@ -648,14 +648,14 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	item_state = "plushie_bee"
 	attack_verb = list("stung")
 	gender = FEMALE
-	squeak_override = list('modular_citadel/sound/voice/scream_moth.ogg' = 1)
+	squeak_override = list('modular_lumos/sound/voice/scream_moth.ogg' = 1)
 
 /obj/item/toy/plush/mothplushie
 	name = "moth plushie"
 	desc = "An adorable stuffed toy that resembles some kind of insect."
 	icon_state = "moff"
 	item_state = "moff"
-	squeak_override = list('modular_citadel/sound/voice/mothsqueak.ogg' = 1)
+	squeak_override = list('modular_lumos/sound/voice/mothsqueak.ogg' = 1)
 	can_random_spawn = FALSE
 
 /obj/item/toy/plush/lampplushie
@@ -722,7 +722,7 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	icon_state = "plushie_snake"
 	item_state = "plushie_snake"
 	attack_verb = list("bitten", "hissed", "tail slapped")
-	squeak_override = list('modular_citadel/sound/voice/hiss.ogg' = 1)
+	squeak_override = list('modular_lumos/sound/voice/hiss.ogg' = 1)
 
 /obj/item/toy/plush/mammal
 	name = "mammal plushie"
@@ -745,8 +745,8 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	desc = "An adorable stuffed toy that resembles a dog."
 	attack_verb = list("barked", "boofed", "borked")
 	squeak_override = list(
-	'modular_citadel/sound/voice/bark1.ogg' = 1,
-	'modular_citadel/sound/voice/bark2.ogg' = 1
+	'modular_lumos/sound/voice/bark1.ogg' = 1,
+	'modular_lumos/sound/voice/bark2.ogg' = 1
 	)
 
 /obj/item/toy/plush/mammal/dog/fcorgi
@@ -775,7 +775,7 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	icon_state = "bird"
 	item_state = "bird"
 	attack_verb = list("peeped", "beeped", "poofed")
-	squeak_override = list('modular_citadel/sound/voice/peep.ogg' = 1)
+	squeak_override = list('modular_lumos/sound/voice/peep.ogg' = 1)
 	can_random_spawn = FALSE
 
 /obj/item/toy/plush/catgirl
@@ -784,7 +784,7 @@ GLOBAL_LIST_INIT(valid_plushie_paths, valid_plushie_paths())
 	icon_state = "cat"
 	item_state = "cat"
 	attack_verb = list("headbutt", "scritched", "bit")
-	squeak_override = list('modular_citadel/sound/voice/nya.ogg' = 1)
+	squeak_override = list('modular_lumos/sound/voice/nya.ogg' = 1)
 	can_random_spawn = FALSE
 
 /obj/item/toy/plush/teddybear

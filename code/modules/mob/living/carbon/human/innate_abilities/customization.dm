@@ -2,7 +2,7 @@
 	name = "Alter Form"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "alter_form" //placeholder
-	icon_icon = 'modular_citadel/icons/mob/actions/actions_slime.dmi'
+	icon_icon = 'modular_lumos/icons/mob/actions/actions_slime.dmi'
 	background_icon_state = "bg_alien"
 
 /datum/action/innate/ability/humanoid_customization/Activate()

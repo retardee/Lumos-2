@@ -158,16 +158,16 @@
 			if("Medical")
 				var/static/list/med_icons = list(
 					"Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "medical"),
-					"Droid" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "medical"),
-					"Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekmed"),
-					"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinamed"),
-					"Eyebot" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "eyebotmed"),
-					"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavymed"),
+					"Droid" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "medical"),
+					"Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleekmed"),
+					"Marina" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "marinamed"),
+					"Eyebot" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "eyebotmed"),
+					"Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavymed"),
 					"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakemedbox")
 				)
 				var/list/L = list("Medihound" = "medihound", "Medihound Dark" = "medihounddark", "Vale" = "valemed")
 				for(var/a in L)
-					var/image/wide = image(icon = 'modular_citadel/icons/mob/widerobot.dmi', icon_state = L[a])
+					var/image/wide = image(icon = 'modular_lumos/icons/mob/widerobot.dmi', icon_state = L[a])
 					wide.pixel_x = -16
 					med_icons[a] = wide
 				med_icons = sortList(med_icons)
@@ -180,32 +180,32 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("Droid")
 						disguise = "medical"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Sleek")
 						disguise = "sleekmed"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Marina")
 						disguise = "marinamed"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Eyebot")
 						disguise = "eyebotmed"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Heavy")
 						disguise = "heavymed"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Medihound")
 						disguise = "medihound"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Medihound Dark")
 						disguise = "medihounddark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Vale")
 						disguise = "valemed"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Drake")
@@ -219,19 +219,19 @@
 			if("Engineer")
 				var/static/list/engi_icons = list(
 					"Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "engineer"),
-					"Default - Treads" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "engi-tread"),
-					"Loader" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "loaderborg"),
-					"Handy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "handyeng"),
-					"Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekeng"),
-					"Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "caneng"),
-					"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinaeng"),
-					"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "spidereng"),
-					"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavyeng"),
+					"Default - Treads" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "engi-tread"),
+					"Loader" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "loaderborg"),
+					"Handy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "handyeng"),
+					"Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleekeng"),
+					"Can" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "caneng"),
+					"Marina" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "marinaeng"),
+					"Spider" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "spidereng"),
+					"Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavyeng"),
 					"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeengbox")
 				)
 				var/list/L = list("Pup Dozer" = "pupdozer", "Vale" = "valeeng")
 				for(var/a in L)
-					var/image/wide = image(icon = 'modular_citadel/icons/mob/widerobot.dmi', icon_state = L[a])
+					var/image/wide = image(icon = 'modular_lumos/icons/mob/widerobot.dmi', icon_state = L[a])
 					wide.pixel_x = -16
 					engi_icons[a] = wide
 				engi_icons = sortList(engi_icons)
@@ -244,41 +244,41 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("Default - Treads")
 						disguise = "engi-tread"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Loader")
 						disguise = "loaderborg"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Handy")
 						disguise = "handyeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Sleek")
 						disguise = "sleekeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Can")
 						disguise = "caneng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Marina")
 						disguise = "marinaeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Spider")
 						disguise = "spidereng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Heavy")
 						disguise = "heavyeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Pup Dozer")
 						disguise = "pupdozer"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Vale")
 						disguise = "valeeng"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Alina")
 						disguise = "alina-eng"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Drake")
@@ -291,17 +291,17 @@
 			if("Security")
 				var/static/list/sec_icons = list(
 					"Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "sec"),
-					"Default - Treads" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sec-tread"),
-					"Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleeksec"),
-					"Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "cansec"),
-					"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinasec"),
-					"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "spidersec"),
-					"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavysec"),
+					"Default - Treads" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sec-tread"),
+					"Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleeksec"),
+					"Can" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "cansec"),
+					"Marina" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "marinasec"),
+					"Spider" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "spidersec"),
+					"Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavysec"),
 					"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakesecbox")
 				)
 				var/list/L = list("K9" = "k9", "Vale" = "valesec", "K9 Dark" = "k9dark")
 				for(var/a in L)
-					var/image/wide = image(icon = 'modular_citadel/icons/mob/widerobot.dmi', icon_state = L[a])
+					var/image/wide = image(icon = 'modular_lumos/icons/mob/widerobot.dmi', icon_state = L[a])
 					wide.pixel_x = -16
 					sec_icons[a] = wide
 				sec_icons = sortList(sec_icons)
@@ -314,40 +314,40 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("Default - Treads")
 						disguise = "sec-tread"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Sleek")
 						disguise = "sleeksec"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Marina")
 						disguise = "marinasec"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Can")
 						disguise = "cansec"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Spider")
 						disguise = "spidersec"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Heavy")
 						disguise = "heavysec"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("K9")
 						disguise = "k9"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Alina")
 						disguise = "alina-sec"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("K9 Dark")
 						disguise = "k9dark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Vale")
 						disguise = "valesec"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Drake")
@@ -364,19 +364,19 @@
 					"(Service) Bro" = image(icon = 'icons/mob/robots.dmi', icon_state = "brobot"),
 					"(Service) Can" = image(icon = 'icons/mob/robots.dmi', icon_state = "kent"),
 					"(Service) Tophat" = image(icon = 'icons/mob/robots.dmi', icon_state = "tophat"),
-					"(Service) Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekserv"),
-					"(Service) Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavyserv"),
+					"(Service) Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleekserv"),
+					"(Service) Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavyserv"),
 					"(Janitor) Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "janitor"),
-					"(Janitor) Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinajan"),
-					"(Janitor) Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekjan"),
-					"(Janitor) Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "canjan"),
-					"(Janitor) Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavyres"),
+					"(Janitor) Marina" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "marinajan"),
+					"(Janitor) Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleekjan"),
+					"(Janitor) Can" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "canjan"),
+					"(Janitor) Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavyres"),
 					"(Janitor) Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakejanitbox")
 				)
 				var/list/L = list("(Service) DarkK9" = "k50", "(Service) Vale" = "valeserv", "(Service) ValeDark" = "valeservdark",
 								"(Janitor) Scrubpuppy" = "scrubpup")
 				for(var/a in L)
-					var/image/wide = image(icon = 'modular_citadel/icons/mob/widerobot.dmi', icon_state = L[a])
+					var/image/wide = image(icon = 'modular_lumos/icons/mob/widerobot.dmi', icon_state = L[a])
 					wide.pixel_x = -16
 					service_icons[a] = wide
 				service_icons = sortList(service_icons)
@@ -401,23 +401,23 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("(Service) Sleek")
 						disguise = "sleekserv"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Service) Heavy")
 						disguise = "heavyserv"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Service) DarkK9")
 						disguise = "k50"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("(Service) Vale")
 						disguise = "valeserv"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("(Service) ValeDark")
 						disguise = "valeservdark"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("(Janitor) Default")
@@ -425,19 +425,19 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("(Janitor) Marina")
 						disguise = "marinajan"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Janitor) Sleek")
 						disguise = "sleekjan"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Janitor) Can")
 						disguise = "canjan"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Janitor) Heavy")
 						disguise = "heavyres"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("(Janitor) Scrubpuppy")
 						disguise = "scrubpup"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("(Janitor) Drake")
@@ -451,16 +451,16 @@
 				var/static/list/mining_icons = list(
 					"Lavaland" = image(icon = 'icons/mob/robots.dmi', icon_state = "miner"),
 					"Asteroid" = image(icon = 'icons/mob/robots.dmi', icon_state = "minerOLD"),
-					"Droid" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "miner"),
-					"Sleek" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "sleekmin"),
-					"Marina" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "marinamin"),
-					"Can" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "canmin"),
-					"Heavy" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "heavymin"),
+					"Droid" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "miner"),
+					"Sleek" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "sleekmin"),
+					"Marina" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "marinamin"),
+					"Can" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "canmin"),
+					"Heavy" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "heavymin"),
 					"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakeminebox")
 				)
 				var/list/L = list("Blade" = "blade", "Vale" = "valemine")
 				for(var/a in L)
-					var/image/wide = image(icon = 'modular_citadel/icons/mob/widerobot.dmi', icon_state = L[a])
+					var/image/wide = image(icon = 'modular_lumos/icons/mob/widerobot.dmi', icon_state = L[a])
 					wide.pixel_x = -16
 					mining_icons[a] = wide
 				mining_icons = sortList(mining_icons)
@@ -476,30 +476,30 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("Droid")
 						disguise = "miner"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Sleek")
 						disguise = "sleekmin"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Can")
 						disguise = "canmin"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Marina")
 						disguise = "marinamin"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Spider")
 						disguise = "spidermin"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Heavy")
 						disguise = "heavymin"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Blade")
 						disguise = "blade"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Vale")
 						disguise = "valemine"
-						disguise_icon_override = 'modular_citadel/icons/mob/widerobot.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/widerobot.dmi'
 						disguise_pixel_offset = -16
 						disguise_dogborg = TRUE
 					if("Drake")
@@ -512,8 +512,8 @@
 			if("Peacekeeper")
 				var/static/list/peace_icons = sortList(list(
 					"Default" = image(icon = 'icons/mob/robots.dmi', icon_state = "peace"),
-					"Borgi" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "borgi"),
-					"Spider" = image(icon = 'modular_citadel/icons/mob/robots.dmi', icon_state = "whitespider"),
+					"Borgi" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "borgi"),
+					"Spider" = image(icon = 'modular_lumos/icons/mob/robots.dmi', icon_state = "whitespider"),
 					"Drake" = image(icon = 'modular_lumos/icons/mob/cyborg/drakemech.dmi', icon_state = "drakepeacebox")
 				))
 				var/borg_icon = show_radial_menu(R, R , peace_icons, custom_check = CALLBACK(src, .proc/check_menu, R), radius = 42, require_near = TRUE)
@@ -525,10 +525,10 @@
 						disguise_icon_override = 'icons/mob/robots.dmi'
 					if("Spider")
 						disguise = "whitespider"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Borgi")
 						disguise = "borgi"
-						disguise_icon_override = 'modular_citadel/icons/mob/robots.dmi'
+						disguise_icon_override = 'modular_lumos/icons/mob/robots.dmi'
 					if("Drake")
 						disguise = "drakepeace"
 						disguise_icon_override = 'modular_lumos/icons/mob/cyborg/drakemech.dmi'

@@ -1,7 +1,7 @@
 {
     "map_name": "Fuck Station (!!!FUN!!!)",
     "map_path": "map_files/Fuckstation",
-    "map_file": "Fuckstation.dmm",
+    "map_file": "fuckstation.dmm",
     "shuttles": {
 	    "emergency": "emergency_box",
 	    "ferry": "ferry_fancy",

@@ -6489,6 +6489,8 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/bed,
+/obj/effect/spawner/lootdrop/bedsheet,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "apZ" = (
@@ -6501,15 +6503,10 @@
 /turf/open/floor/plasteel,
 /area/security/office)
 "aqa" = (
-/obj/structure/bed{
-	dir = 1
-	},
-/obj/effect/spawner/lootdrop/bedsheet{
-	dir = 1
-	},
 /obj/machinery/newscaster{
 	pixel_y = 32
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "aqb" = (
@@ -8774,7 +8771,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/maintenance/department/electrical)
+/area/maintenance/starboard/fore)
 "awR" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -9538,7 +9535,7 @@
 /obj/item/radio/intercom{
 	pixel_y = 22
 	},
-/obj/structure/closet/secure_closet/personal,
+/obj/structure/table/wood,
 /turf/open/floor/carpet,
 /area/commons/dorms)
 "ayW" = (
@@ -22556,7 +22553,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/maintenance/disposal)
+/area/maintenance/port)
 "bjg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -37734,7 +37731,7 @@
 /area/tcommsat/server)
 "bZo" = (
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "2-8"
 	},
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
@@ -37854,7 +37851,6 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/preopen{
 	id = "ceprivacy";
 	name = "privacy shutter"
@@ -37865,6 +37861,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/command/heads_quarters/ce)
 "bZE" = (
@@ -38096,14 +38093,17 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/neutral/fulltile,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Server Room";
 	req_access_txt = "61"
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/effect/turf_decal/tile/neutral/fulltile,
 /turf/open/floor/plasteel/dark,
 /area/tcommsat/computer)
 "can" = (
@@ -39605,6 +39605,10 @@
 	icon_state = "0-8"
 	},
 /obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor/preopen{
+	id = "ceprivacy";
+	name = "privacy shutter"
+	},
 /turf/open/floor/plating,
 /area/command/heads_quarters/ce)
 "ces" = (
@@ -41733,11 +41737,10 @@
 /area/engineering/main)
 "ckL" = (
 /obj/structure/cable{
-	icon_state = "0-4"
+	icon_state = "1-4"
 	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/command/heads_quarters/ce)
+/turf/open/floor/circuit/telecomms/mainframe,
+/area/tcommsat/server)
 "ckM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -41761,10 +41764,6 @@
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
 "ckO" = (
-/obj/machinery/door/airlock/command/glass{
-	name = "Chief Engineer";
-	req_access_txt = "56"
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -41780,6 +41779,10 @@
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
+	},
+/obj/machinery/door/airlock/command{
+	name = "Chief Engineer";
+	req_access_txt = "56"
 	},
 /turf/open/floor/plasteel,
 /area/command/heads_quarters/ce)
@@ -46460,7 +46463,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
-/obj/structure/table/wood,
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -24
@@ -47088,7 +47090,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/open/floor/plasteel/dark/telecomms,
+/turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
 "cSF" = (
 /obj/machinery/power/terminal{
@@ -51098,7 +51100,7 @@
 /obj/structure/door_assembly/door_assembly_mai,
 /obj/item/electronics/airlock,
 /turf/open/floor/plating,
-/area/service/abandoned_gambling_den)
+/area/maintenance/starboard/fore)
 "jbC" = (
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 5
@@ -60606,7 +60608,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
 	},
-/obj/structure/table/wood,
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -24
@@ -86728,7 +86729,7 @@ bWE
 bXB
 bYC
 bZo
-bWB
+ckL
 bWB
 cch
 cde
@@ -86984,8 +86985,8 @@ bVI
 bWG
 bXD
 bYz
+bYz
 cSE
-bWB
 bYz
 bYz
 cdf
@@ -90851,7 +90852,7 @@ ccj
 cBM
 cdU
 cSZ
-ckL
+cfc
 cmF
 cje
 cgR
@@ -109292,12 +109293,12 @@ gXs
 gXs
 aaa
 aCR
-aBI
-aBI
-aBI
-aBI
-aBI
-aBI
+aCR
+aCR
+aCR
+aCR
+aCR
+aCR
 iph
 bxH
 bDz

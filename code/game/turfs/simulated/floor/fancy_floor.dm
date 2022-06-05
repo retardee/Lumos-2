@@ -84,7 +84,7 @@
 	desc = "Stylish dark wood."
 	icon_state = "wood_tile"
 	floor_tile = /obj/item/stack/tile/wood/wood_tiled
-	broken_states = list("wood_tile-broken", "wood_tile-broken2", "wood_tile-broken3")
+	broken_states = list("wood_tile-broken", "wood_tile-broken2", "wood_tile-broken3","wood_tile-broken4","wood_tile-broken5","wood_tile-broken6","wood_tile-broken7")
 
 /turf/open/floor/wood/wood_diagonal
 	desc = "Stylish dark wood."

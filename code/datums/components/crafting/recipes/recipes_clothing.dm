@@ -296,6 +296,7 @@
 	result = /obj/item/storage/backpack/duffelbag/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 7,
 				/obj/item/stack/sheet/leather = 3)
+	tools = list(/obj/item/armorkit)
 	time = 70
 	category = CAT_CLOTHING
 
@@ -304,6 +305,7 @@
 	result = /obj/item/storage/belt/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 5,
 				/obj/item/stack/sheet/leather = 2)
+	tools = list(/obj/item/armorkit)
 	time = 30
 	category = CAT_CLOTHING
 
@@ -312,6 +314,7 @@
 	result = /obj/item/storage/belt/bandolier/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 6,
 				/obj/item/stack/sheet/leather = 2)
+	tools = list(/obj/item/armorkit)
 	time = 50
 	category = CAT_CLOTHING
 
@@ -320,6 +323,7 @@
 	result = /obj/item/clothing/head/helmet/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 4,
 				/obj/item/stack/sheet/leather = 2)
+	tools = list(/obj/item/armorkit)
 	time = 30
 	category = CAT_CLOTHING
 
@@ -328,6 +332,7 @@
 	result = /obj/item/clothing/suit/armor/vest/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 6,
 				/obj/item/stack/sheet/leather = 3)
+	tools = list(/obj/item/armorkit)
 	time = 50
 	category = CAT_CLOTHING
 
@@ -336,6 +341,7 @@
 	result = /obj/item/clothing/suit/hooded/wintercoat/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 12,
 				/obj/item/stack/sheet/leather = 10)
+	tools = list(/obj/item/armorkit)
 	time = 70
 	category = CAT_CLOTHING
 

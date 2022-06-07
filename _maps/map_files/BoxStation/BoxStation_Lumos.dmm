@@ -33833,6 +33833,7 @@
 /obj/machinery/airalarm{
 	pixel_y = 24
 	},
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "bOw" = (
@@ -45569,6 +45570,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "czU" = (

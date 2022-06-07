@@ -13102,9 +13102,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "aWV" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 2
-	},
+/obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "aWW" = (
@@ -34805,6 +34803,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/dark,
 /area/medical/paramedic)
 "cxf" = (
@@ -34834,6 +34833,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/corner{
 	dir = 1
 	},
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/dark,
 /area/medical/paramedic)
 "cxh" = (
@@ -72273,7 +72273,6 @@
 /area/commons/fitness/recreation)
 "rta" = (
 /obj/machinery/door/airlock/external{
-	dir = 2;
 	name = "Public Mining Dock"
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{

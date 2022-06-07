@@ -24483,8 +24483,8 @@
 /area/medical/paramedic)
 "bny" = (
 /obj/machinery/suit_storage_unit/paramedic,
-/obj/item/tank/internals/oxygen/yellow,
 /obj/effect/turf_decal/tile/blue/fulltile,
+/obj/item/tank/internals/oxygen,
 /turf/open/floor/plasteel/white,
 /area/medical/paramedic)
 "bnz" = (

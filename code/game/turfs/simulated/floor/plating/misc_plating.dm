@@ -130,9 +130,10 @@
 	icon_state = "desert0" // Lumos edit
 	baseturfs = /turf/open/floor/plating/beach/sand
 
-/turf/open/floor/plating/beach/sand/Initialize() // Lumos edit
-	icon_state = "[icon_state][rand(1, 9)]"
+/turf/open/floor/plating/beach/sand/Initialize()
 	. = ..()
+	if(prob(15))
+		icon_state = "desert[rand(0,6)]"
 
 /turf/open/floor/plating/beach/coastline_t
 	name = "coastline"

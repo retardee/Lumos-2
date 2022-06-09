@@ -142,7 +142,6 @@
 	if(prefs)
 	//Getting char prefs
 		data["erp_pref"] = 			pref_to_num(prefs.erppref)
-		data["noncon_pref"] = 		pref_to_num(prefs.nonconpref)
 		data["vore_pref"] = 		pref_to_num(prefs.vorepref)
 		data["extreme_pref"] = 		pref_to_num(prefs.extremepref)
 		data["extreme_harm"] = 		pref_to_num(prefs.extremeharm)
@@ -209,11 +208,6 @@
 						return FALSE
 					else
 						prefs.erppref = value
-				if("noncon_pref")
-					if(prefs.nonconpref == value)
-						return FALSE
-					else
-						prefs.nonconpref = value
 				if("vore_pref")
 					if(prefs.vorepref == value)
 						return FALSE

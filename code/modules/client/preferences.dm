@@ -110,7 +110,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/age = 30						//age of character
 	//Sandstorm CHANGES BEGIN
 	var/erppref = "Ask"
-	var/nonconpref = "Ask"
 	var/vorepref = "Ask"
 	var/extremepref = "No" //This is for extreme shit, maybe even literal shit, better to keep it on no by default
 	var/extremeharm = "No" //If "extreme content" is enabled, this option serves as a toggle for the related interactions to cause damage or not
@@ -421,7 +420,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "[TextPreview(features["ooc_notes"])]...<BR>"
 			//SKYRAT EDIT
 			dat += 	"ERP : <a href='?_src_=prefs;preference=erp_pref'>[erppref]</a><br>"
-			//dat += 	"Non-Con : <a href='?_src_=prefs;preference=noncon_pref'>[nonconpref]</a><br>" //LUMOS Non-con Change
 			dat += 	"Vore : <a href='?_src_=prefs;preference=vore_pref'>[vorepref]</a><br>"
 			//END OF SKYRAT EDIT
 
@@ -2763,14 +2761,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							erppref = "No"
 						if("No")
 							erppref = "Yes"
-				if("noncon_pref")
-					switch(nonconpref)
-						if("Yes")
-							nonconpref = "Ask"
-						if("Ask")
-							nonconpref = "No"
-						if("No")
-							nonconpref = "Yes"
 				if("vore_pref")
 					switch(vorepref)
 						if("Yes")

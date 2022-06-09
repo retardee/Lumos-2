@@ -28,8 +28,6 @@
 
 	erppref = sanitize_text(S["erp_pref"], "Ask")
 	if(!length(erppref)) erppref = "Ask"
-	nonconpref = sanitize_text(S["noncon_pref"], "Ask")
-	if(!length(nonconpref)) nonconpref = "Ask"
 	vorepref = sanitize_text(S["vore_pref"], "Ask")
 	if(!length(vorepref)) vorepref = "Ask"
 	extremepref = sanitize_text(S["extremepref"], "No") //god has forsaken me
@@ -67,7 +65,6 @@
 
 	//sandstorm stuff
 	WRITE_FILE(S["erp_pref"], erppref)
-	WRITE_FILE(S["noncon_pref"], nonconpref)
 	WRITE_FILE(S["vore_pref"], vorepref)
 	WRITE_FILE(S["extremepref"], extremepref)
 	WRITE_FILE(S["extremeharm"], extremeharm)

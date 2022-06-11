@@ -128,7 +128,6 @@ const CharacterPrefsTab = (props, context) => {
   const { act, data } = useBackend(context);
   const {
     erp_pref,
-    noncon_pref,
     vore_pref,
     extreme_pref,
     extreme_harm,
@@ -156,29 +155,6 @@ const CharacterPrefsTab = (props, context) => {
             color={erp_pref === 0 ? "red" : "default"}
             onClick={() => act('char_pref', {
               char_pref: 'erp_pref',
-              value: 0,
-            })} />
-        </LabeledList.Item>
-        <LabeledList.Item label="Noncon Preference">
-          <Button
-            icon={"check"}
-            color={noncon_pref === 1 ? "green" : "default"}
-            onClick={() => act('char_pref', {
-              char_pref: 'noncon_pref',
-              value: 1,
-            })} />
-          <Button
-            icon={"question"}
-            color={noncon_pref === 2 ? "yellow" : "default"}
-            onClick={() => act('char_pref', {
-              char_pref: 'noncon_pref',
-              value: 2,
-            })} />
-          <Button
-            icon={"times"}
-            color={noncon_pref === 0 ? "red" : "default"}
-            onClick={() => act('char_pref', {
-              char_pref: 'noncon_pref',
               value: 0,
             })} />
         </LabeledList.Item>

@@ -4028,6 +4028,7 @@
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\body_markings.dm"
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\ears.dm"
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\frills.dm"
+#include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\horns.dm"
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\legs_and_taurs.dm"
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\synthliz.dm"
 #include "modular_lumos\code\modules\mob\dead\new_player\sprite_accessories\tails.dm"

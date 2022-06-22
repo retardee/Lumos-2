@@ -172,7 +172,7 @@
 "cq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/paper{
-	info = "Take extreme caution with opening the crate inside the main crystal chamber, unless you want to dust yourself on a shard. Everything you need for your very own DIY SM setup is located in the crates around the engine room; from spare parts to materials for your own windows and walls. Doing solars with this setup is highly recommended firsthand, and please ensure any windows made are fully wrenched and screwed in to prevent gas leakage.;
+	info = "Take extreme caution with opening the crate inside the main crystal chamber, unless you want to dust yourself on a shard. Everything you need for your very own DIY SM setup is located in the crates around the engine room; from spare parts to materials for your own windows and walls. Doing solars with this setup is highly recommended firsthand, and please ensure any windows made are fully wrenched and screwed in to prevent gas leakage."
 	name = "Supermatter Engine Notice"
 	},
 /turf/open/floor/plating,
